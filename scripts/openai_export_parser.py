@@ -307,13 +307,15 @@ def list_titles(filepath: str, limit: Optional[int] = None) -> None:
         
         # Format timestamp
         if create_time:
-            dt = datetime.fromtimestamp(create_time)
-            date_str = dt.strftime("%Y-%m-%d")
+            try:
+                dt = datetime.fromtimestamp(float(create_time))  # ADD float() here
+                date_str = dt.strftime("%Y-%m-%d")
+            except:
+                date_str = "unknown"
         else:
             date_str = "unknown"
         
         print(f"{i+1:4d}. [{date_str}] {title[:80]}")
-
 
 class CustomJSONEncoder(json.JSONEncoder):
     """JSON encoder that handles Decimal and other non-standard types."""
