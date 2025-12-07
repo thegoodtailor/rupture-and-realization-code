@@ -315,6 +315,14 @@ def list_titles(filepath: str, limit: Optional[int] = None) -> None:
         print(f"{i+1:4d}. [{date_str}] {title[:80]}")
 
 
+class CustomJSONEncoder(json.JSONEncoder):
+    """JSON encoder that handles Decimal and other non-standard types."""
+    def default(self, obj):
+        from decimal import Decimal
+        if isinstance(obj, Decimal):
+            return float(obj)
+        return super().default(obj)
+
 def save_for_witnessed_ph(conversations: List[Conversation], output_path: str) -> None:
     """
     Save conversations in format compatible with witnessed_ph Chapter 5.
@@ -327,7 +335,7 @@ def save_for_witnessed_ph(conversations: List[Conversation], output_path: str) -
     }
     
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
+        json.dump(output, f, indent=2, ensure_ascii=False, cls=CustomJSONEncoder)
 
 
 def save_single_conversation(conv: Conversation, output_path: str) -> None:
@@ -342,7 +350,7 @@ def save_single_conversation(conv: Conversation, output_path: str) -> None:
     }
     
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
+        json.dump(output, f, indent=2, ensure_ascii=False, cls=CustomJSONEncoder)
 
 
 # =============================================================================
