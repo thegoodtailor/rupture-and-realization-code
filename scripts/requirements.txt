@@ -1,0 +1,21 @@
+# Self as Hocolim - Requirements
+# Pin all versions for reproducibility on GPU run
+
+# Core dependencies
+numpy>=1.24.0,<2.0.0
+transformers>=4.30.0,<5.0.0
+torch>=2.0.0,<3.0.0
+
+# Persistent homology
+gudhi>=3.8.0,<4.0.0
+
+# Data processing
+# (no additional deps needed - using stdlib json, collections, etc.)
+
+# Optional: For GPU acceleration
+# torch with CUDA support - install via:
+# pip install torch --index-url https://download.pytorch.org/whl/cu118
+
+# Optional: For visualization export
+# matplotlib>=3.7.0  # If we add graphical plots
+# networkx>=3.0     # If we add graph visualization
