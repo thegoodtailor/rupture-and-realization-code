@@ -77,10 +77,14 @@ HTML_NETWORK_TEMPLATE = """<!DOCTYPE html>
     <div id="network"></div>
     
     <div class="legend">
-        <span class="legend-item"><span class="legend-dot" style="background:#00d4ff"></span>Component 0 (Main)</span>
-        <span class="legend-item"><span class="legend-dot" style="background:#ff6b6b"></span>Component 1</span>
-        <span class="legend-item"><span class="legend-dot" style="background:#ffd93d"></span>Component 2</span>
-        <span class="legend-item"><span class="legend-dot" style="background:#6bcb77"></span>Component 3+</span>
+        <strong>Birth Time:</strong>
+        <span class="legend-item"><span class="legend-dot" style="background:#00d4ff"></span>Early (τ &lt; 33%)</span>
+        <span class="legend-item"><span class="legend-dot" style="background:#9b59b6"></span>Middle (τ 33-66%)</span>
+        <span class="legend-item"><span class="legend-dot" style="background:#ff6b6b"></span>Recent (τ &gt; 66%) — Generative Frontier</span>
+        <br><br>
+        <strong>Edges:</strong>
+        <span class="legend-item" style="color:#ff6b6b">━━ Cross-temporal gluing (connects different periods)</span>
+        <span class="legend-item" style="color:#666">━━ Same-period gluing</span>
     </div>
     
     <script>
@@ -442,11 +446,67 @@ def export_latex_metrics(data: dict, output_path: str):
 # =============================================================================
 
 def generate_network_html(data: dict, output_path: str, max_nodes: int = 200, max_edges: int = 500):
-    """Generate interactive network visualization."""
+    """Generate interactive network visualization with temporal coloring."""
     
-    # Build node list
-    journeys = data.get('journeys', [])[:max_nodes]
+    # Get all journeys and extract birth_tau
+    all_journeys = data.get('journeys', [])
+    
+    # Extract birth_tau - handle both new format (direct) and old format (from steps)
+    for j in all_journeys:
+        if 'birth_tau' not in j:
+            steps = j.get('steps', [])
+            if steps:
+                j['birth_tau'] = steps[0].get('tau', 0)
+            else:
+                j['birth_tau'] = 0
+    
+    # Build journey_id -> birth_tau map
+    journey_birth_tau = {j['id']: j.get('birth_tau', 0) for j in all_journeys}
+    
+    # Sample journeys to show temporal evolution:
+    # - 1/3 from earliest (low τ)
+    # - 1/3 from middle 
+    # - 1/3 from newest (high τ) - generative frontier
+    sorted_by_birth = sorted(all_journeys, key=lambda j: j.get('birth_tau', 0))
+    
+    n = min(max_nodes, len(sorted_by_birth))
+    n_early = n // 3
+    n_late = n // 3
+    n_middle = n - n_early - n_late
+    
+    early = sorted_by_birth[:n_early]
+    late = sorted_by_birth[-n_late:] if n_late > 0 else []
+    
+    mid_start = len(sorted_by_birth) // 2 - n_middle // 2
+    middle = sorted_by_birth[mid_start:mid_start + n_middle]
+    
+    # Combine and deduplicate
+    seen_ids = set()
+    journeys = []
+    for j in early + middle + late:
+        if j['id'] not in seen_ids:
+            journeys.append(j)
+            seen_ids.add(j['id'])
+    
+    print(f"    Network: sampling {len(early)} early + {len(middle)} middle + {len(late)} late journeys")
+    
     components = data.get('components', [])
+    
+    # Find τ thresholds for temporal periods
+    birth_taus = [j.get('birth_tau', 0) for j in all_journeys]
+    min_tau = min(birth_taus) if birth_taus else 0
+    max_tau = max(birth_taus) if birth_taus else 1
+    tau_range = max(max_tau - min_tau, 1)
+    
+    early_threshold = min_tau + tau_range * 0.33
+    late_threshold = min_tau + tau_range * 0.66
+    
+    def get_period(tau):
+        if tau < early_threshold:
+            return 'early'
+        elif tau > late_threshold:
+            return 'late'
+        return 'middle'
     
     # Map journey to component
     journey_to_comp = {}
@@ -454,38 +514,79 @@ def generate_network_html(data: dict, output_path: str, max_nodes: int = 200, ma
         for jid in comp.get('journeys', []):
             journey_to_comp[jid] = comp['id']
     
-    # Component colors
-    colors = ['#00d4ff', '#ff6b6b', '#ffd93d', '#6bcb77', '#9b59b6', '#e67e22', '#1abc9c', '#34495e']
+    # Find τ range for color gradient
+    birth_taus = [j.get('birth_tau', 0) for j in journeys]
+    min_tau = min(birth_taus) if birth_taus else 0
+    max_tau = max(birth_taus) if birth_taus else 1
+    tau_range = max(max_tau - min_tau, 1)
     
     nodes = []
     node_ids = set()
     for j in journeys:
         jid = j['id']
         comp_id = journey_to_comp.get(jid, 0)
-        color = colors[comp_id % len(colors)]
-        size = 5 + min(j.get('glued_with_count', 0) / 10, 25)
+        birth_tau = j.get('birth_tau', 0)
+        
+        # Color by birth_tau: early=blue, middle=purple, late=red/orange
+        tau_normalized = (birth_tau - min_tau) / tau_range
+        if tau_normalized < 0.33:
+            color = '#00d4ff'  # Cyan - early
+        elif tau_normalized < 0.66:
+            color = '#9b59b6'  # Purple - middle
+        else:
+            color = '#ff6b6b'  # Red/coral - newest (generative frontier)
+        
+        # Size by gluing count, but boost newest journeys slightly
+        base_size = 5 + min(j.get('glued_with_count', 0) / 10, 25)
+        if tau_normalized > 0.8:
+            base_size *= 1.3  # Make newest journeys more visible
         
         nodes.append({
             'id': jid,
             'label': j['signature'][:20],
-            'title': f"{j['signature']}<br>Lifespan: {j['lifespan']}<br>Component: {comp_id}<br>Glued with: {j.get('glued_with_count', 0)}",
+            'title': f"{j['signature']}<br>Birth: τ={birth_tau}<br>Lifespan: {j['lifespan']}<br>Component: {comp_id}<br>Glued with: {j.get('glued_with_count', 0)}",
             'color': color,
-            'size': size
+            'size': base_size
         })
         node_ids.add(jid)
     
-    # Build edge list (only between nodes we're showing)
+    # Build edge list with PRIORITY for cross-temporal edges
+    # This shows how early/middle/late journeys connect
     edges_data = data.get('gluing_edges', [])
-    edges = []
-    for e in edges_data[:max_edges * 3]:  # Over-sample then filter
-        if e['journey_a'] in node_ids and e['journey_b'] in node_ids:
-            edges.append({
-                'from': e['journey_a'],
-                'to': e['journey_b'],
-                'title': f"Shared: {', '.join(e['shared_witnesses'][:5])}"
-            })
-            if len(edges) >= max_edges:
-                break
+    
+    cross_temporal_edges = []  # Edges between different periods
+    same_period_edges = []     # Edges within same period
+    
+    for e in edges_data:
+        ja, jb = e['journey_a'], e['journey_b']
+        if ja in node_ids and jb in node_ids:
+            # Use pre-computed flag if available, otherwise compute
+            if 'cross_temporal' in e:
+                is_cross = e['cross_temporal']
+            else:
+                tau_a = journey_birth_tau.get(ja, 0)
+                tau_b = journey_birth_tau.get(jb, 0)
+                is_cross = get_period(tau_a) != get_period(tau_b)
+            
+            edge_obj = {
+                'from': ja,
+                'to': jb,
+                'title': f"Shared: {', '.join(e['shared_witnesses'][:5])}",
+                'color': '#ff6b6b' if is_cross else '#444'  # Highlight cross-temporal
+            }
+            
+            if is_cross:
+                cross_temporal_edges.append(edge_obj)
+            else:
+                same_period_edges.append(edge_obj)
+    
+    # Prioritize cross-temporal edges (show all of them), then fill with same-period
+    edges = cross_temporal_edges[:max_edges // 2]
+    remaining = max_edges - len(edges)
+    edges.extend(same_period_edges[:remaining])
+    
+    print(f"    Edges: {len(cross_temporal_edges)} cross-temporal, {len(same_period_edges)} same-period")
+    print(f"    Showing: {len([e for e in edges if e.get('color') == '#ff6b6b'])} cross-temporal + {len([e for e in edges if e.get('color') != '#ff6b6b'])} same-period")
     
     # Fill template
     metrics = data.get('metrics', {})
@@ -836,14 +937,53 @@ def export_from_analysis(self_struct, scheduler_analysis, window_ids: List[str],
             'core_witnesses': [w for w, _ in witness_counts.most_common(10)]
         })
     
-    # Build gluing edge data
-    for edge in self_struct.gluing_edges[:1000]:
-        data['gluing_edges'].append({
+    # Build gluing edge data with cross-temporal prioritization
+    # First, compute τ thresholds for periods
+    all_taus = [j.birth_tau for j in self_struct.journeys.values()]
+    if all_taus:
+        min_tau, max_tau = min(all_taus), max(all_taus)
+        tau_range = max(max_tau - min_tau, 1)
+        early_thresh = min_tau + tau_range * 0.33
+        late_thresh = min_tau + tau_range * 0.66
+    else:
+        early_thresh, late_thresh = 0, 1
+    
+    def get_period(jid):
+        if jid not in self_struct.journeys:
+            return 'middle'
+        tau = self_struct.journeys[jid].birth_tau
+        if tau < early_thresh:
+            return 'early'
+        elif tau > late_thresh:
+            return 'late'
+        return 'middle'
+    
+    cross_temporal_edges = []
+    same_period_edges = []
+    
+    for edge in self_struct.gluing_edges:
+        period_a = get_period(edge.journey_a)
+        period_b = get_period(edge.journey_b)
+        is_cross = period_a != period_b
+        
+        edge_data = {
             'journey_a': edge.journey_a,
             'journey_b': edge.journey_b,
             'shared_witnesses': list(edge.shared_witnesses),
-            'tau': edge.tau
-        })
+            'tau': edge.tau,
+            'cross_temporal': is_cross
+        }
+        
+        if is_cross:
+            cross_temporal_edges.append(edge_data)
+        else:
+            same_period_edges.append(edge_data)
+    
+    # Prioritize cross-temporal edges (put them first for visualization sampling)
+    data['gluing_edges'] = cross_temporal_edges + same_period_edges
+    data['cross_temporal_edge_count'] = len(cross_temporal_edges)
+    
+    print(f"  Edge data: {len(cross_temporal_edges)} cross-temporal + {len(same_period_edges)} same-period")
     
     # Generate all exports
     print(f"\nExporting visualizations to {output_dir}/")

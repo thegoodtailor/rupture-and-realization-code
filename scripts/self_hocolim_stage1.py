@@ -89,6 +89,16 @@ class Journey:
     
     @property
     def signature(self) -> str:
+        """First 3 witness tokens at spawn, in order of proximity to bar centroid."""
+        if self.steps and self.steps[0].witness_tokens:
+            # Use first 3 in original order (closest to centroid first)
+            # This gives more meaningful signatures than alphabetical
+            return "_".join(self.steps[0].witness_tokens[:3])
+        return "empty"
+    
+    @property
+    def signature_alpha(self) -> str:
+        """Alphabetically sorted signature (for deduplication checks)."""
         if self.steps and self.steps[0].witness_tokens:
             return "_".join(sorted(set(self.steps[0].witness_tokens[:3])))
         return "empty"
@@ -191,6 +201,56 @@ def extract_tokens(conversations: List[dict], min_length: int = 4, filter_techni
         'assistant', 'user', 'content', 'role', 'message', 'messages', 'text',
     }
     
+    # Patterns that indicate an ENTIRE TURN should be skipped
+    # These are tool-use interactions, not semantic content
+    skip_turn_patterns = [
+        # DALL-E JSON prompts (assistant generating images)
+        r'^\s*\{\s*"size"\s*:\s*"1024x1024"',
+        r'^\s*\{\s*"prompt"\s*:',
+        # TOOL responses
+        r'^\s*DALL[·\-]?E displayed \d+ images?',
+        r'^Before doing anything else, please explicitly explain',
+        # Generic image follow-up responses
+        r'^Here are the (?:new |latest )?designs? for',
+        r'^Here (?:is|are) the (?:new |updated |latest )?(?:image|design|illustration)',
+        r"^(?:I've|I have) (?:created|generated|made) the",
+        r'^Let me know if (?:you need|there\'s) any',
+        # Pure drawing commands (user side)
+        r'^Draw (?:again|it again|another|more|the same)',
+        r'^(?:Generate|Create|Make) (?:another|more|again)',
+        r'^(?:Try|Do it) again',
+    ]
+    skip_turn_regex = re.compile('|'.join(skip_turn_patterns), re.IGNORECASE | re.MULTILINE)
+    
+    # Boilerplate phrases to REMOVE from content before tokenization
+    # These are system-generated noise that pollute semantic analysis
+    boilerplate_patterns = [
+        # DALL-E image generation boilerplate
+        r"DALL[·\-]?E displayed \d+ images?\.",
+        r"The images? (?:are|is) already plainly visible",
+        r"don't repeat the descriptions? in detail",
+        r"Do not list download links",
+        r"available in the ChatGPT UI",
+        r"The user may download the images? by",
+        r"clicking on (?:them|it)",
+        r"but do not mention anything about downloading",
+        # GPT capability disclaimers
+        r"As a text-based AI model, I'm unable to",
+        r"As an AI language model, I (?:cannot|can't|am unable to)",
+        r"I'm sorry, but I (?:cannot|can't) (?:draw|create|generate) (?:images|diagrams|pictures)",
+        r"I don't have the ability to (?:draw|create|generate)",
+        # Rate limit messages
+        r"You're generating images too quickly",
+        r"we have rate limits in place",
+        r"Please wait for \d+ minutes? before generating",
+        # Code execution boilerplate
+        r"```(?:python|javascript|bash|sql|json|yaml|html|css)?\n",
+        r"```\n",
+        # System messages
+        r"\[TOOL\]",
+        r"\[SYSTEM\]",
+    ]
+    
     # Technical tokens that should NEVER be witnesses
     # These are "punctuation" - they appear everywhere but carry no semantic meaning
     technical_stoplist = {
@@ -233,18 +293,39 @@ def extract_tokens(conversations: List[dict], min_length: int = 4, filter_techni
         'args', 'argv', 'stdin', 'stdout', 'stderr', 'errno', 'null', 'void',
         'uint', 'int8', 'int16', 'int32', 'int64', 'float32', 'float64',
         'dtype', 'ndarray', 'tensor', 'cuda', 'device',
+        # DALL-E / image generation noise
+        'dalle', 'plainly', 'visible', 'download', 'clicking', 'chatgpt',
+        'downloading', 'downloads', 'uploaded', 'uploading',
+        'images', 'image',  # Polluted by DALL-E boilerplate
     }
     
+    # Compile boilerplate patterns
+    boilerplate_regex = re.compile('|'.join(boilerplate_patterns), re.IGNORECASE)
+    
     tokens = []
+    skipped_turns = 0
     for conv in conversations:
         for turn in conv.get('turns', []):
             content = turn.get('content', '')
+            
+            # Skip entire turn if it matches skip patterns (tool-use, not semantic)
+            if skip_turn_regex.search(content[:500]):  # Check first 500 chars
+                skipped_turns += 1
+                continue
+            
+            # Remove boilerplate phrases before tokenization
+            content = boilerplate_regex.sub(' ', content)
+            
             words = re.findall(r'\b[a-zA-Z]+\b', content.lower())
             for w in words:
                 if len(w) >= min_length and w not in stopwords:
                     if filter_technical and w in technical_stoplist:
                         continue
                     tokens.append(w)
+    
+    if skipped_turns > 0:
+        print(f"    Skipped {skipped_turns} tool-use turns (DALL-E, image generation)")
+    
     return tokens
 
 
@@ -341,6 +422,79 @@ def embed_tokens(tokens, model_name, batch_size=32):
 
 
 def compute_persistence(embeddings, max_edge=2.0):
+    """
+    Compute persistent homology with COCYCLES for true representative cycles.
+    
+    Uses ripser instead of gudhi to get actual cycle representatives,
+    not just birth/death simplex vertices.
+    
+    Returns:
+        List of (dimension, birth, death, representative_indices)
+        where representative_indices are the vertices in the cocycle
+    """
+    try:
+        from ripser import ripser
+        
+        # Compute PH with cocycles
+        result = ripser(
+            embeddings, 
+            maxdim=1,  # H0 and H1
+            thresh=max_edge,
+            do_cocycles=True
+        )
+        
+        diagrams = result['dgms']
+        cocycles = result['cocycles']
+        
+        results = []
+        
+        # Process H0 (connected components)
+        for i, (birth, death) in enumerate(diagrams[0]):
+            if death == np.inf:
+                death = max_edge
+            if death - birth < 0.001:  # Skip trivial bars
+                continue
+            # H0 cocycles are just vertex indices
+            if i < len(cocycles[0]) and len(cocycles[0][i]) > 0:
+                rep_indices = list(set(cocycles[0][i].flatten().astype(int)))
+            else:
+                rep_indices = [i]  # Fallback
+            results.append((0, float(birth), float(death), rep_indices))
+        
+        # Process H1 (loops) - THIS IS WHERE COCYCLES MATTER
+        for i, (birth, death) in enumerate(diagrams[1]):
+            if death == np.inf:
+                death = max_edge
+            if death - birth < 0.001:
+                continue
+            # H1 cocycles are arrays of [vertex_i, vertex_j, coefficient]
+            # Extract all vertices participating in the cycle
+            if i < len(cocycles[1]) and len(cocycles[1][i]) > 0:
+                cocycle = cocycles[1][i]
+                # Each row is [v1, v2, coeff] - extract unique vertices
+                vertices = set()
+                for edge in cocycle:
+                    vertices.add(int(edge[0]))
+                    vertices.add(int(edge[1]))
+                rep_indices = list(vertices)
+            else:
+                rep_indices = []
+            
+            if rep_indices:  # Only include bars with actual representatives
+                results.append((1, float(birth), float(death), rep_indices))
+        
+        return results
+        
+    except ImportError:
+        # Fallback to gudhi if ripser not available
+        print("  [WARNING] ripser not installed, falling back to gudhi (no true cocycles)")
+        return compute_persistence_gudhi(embeddings, max_edge)
+
+
+def compute_persistence_gudhi(embeddings, max_edge=2.0):
+    """
+    Fallback: gudhi-based persistence (simplex vertices only, not true representatives).
+    """
     import gudhi
     rips = gudhi.RipsComplex(points=embeddings, max_edge_length=max_edge)
     st = rips.create_simplex_tree(max_dimension=2)
@@ -360,23 +514,96 @@ def compute_persistence(embeddings, max_edge=2.0):
     return results
 
 
+def visualize_cocycles(persistence_data, tokens, max_show=5):
+    """
+    Show detailed cocycle information for debugging/understanding.
+    
+    Call this after compute_persistence to see what the cycles look like.
+    """
+    print("\n" + "─" * 60)
+    print("COCYCLE DETAILS")
+    print("─" * 60)
+    
+    h0_bars = [p for p in persistence_data if p[0] == 0]
+    h1_bars = [p for p in persistence_data if p[0] == 1]
+    
+    print(f"\nH0 (connected components): {len(h0_bars)} bars")
+    for i, (dim, birth, death, reps) in enumerate(h0_bars[:max_show]):
+        pers = death - birth
+        rep_tokens = [tokens[j] if j < len(tokens) else f"?{j}" for j in reps[:5]]
+        print(f"  [{i}] birth={birth:.3f} death={death:.3f} pers={pers:.3f}")
+        print(f"      representatives: {rep_tokens}")
+    
+    print(f"\nH1 (loops/cycles): {len(h1_bars)} bars")
+    for i, (dim, birth, death, reps) in enumerate(h1_bars[:max_show]):
+        pers = death - birth
+        rep_tokens = [tokens[j] if j < len(tokens) else f"?{j}" for j in reps]
+        print(f"  [{i}] birth={birth:.3f} death={death:.3f} pers={pers:.3f}")
+        print(f"      cycle vertices ({len(reps)}): {rep_tokens[:10]}{'...' if len(rep_tokens) > 10 else ''}")
+    
+    if len(h1_bars) > max_show:
+        print(f"  ... and {len(h1_bars) - max_show} more H1 bars")
+    
+    print("─" * 60 + "\n")
+
+
 def construct_witnessed_bars(persistence_data, embeddings, tokens, token_frequencies, window_id, config):
+    """
+    Construct witnessed bars using cocycle representatives as primary witnesses.
+    
+    With ripser cocycles, rep_indices ARE the tokens forming the homological feature.
+    We use these directly as witnesses, optionally supplementing with nearby tokens.
+    """
     bars = []
     for idx, (dim, birth, death, rep_indices) in enumerate(persistence_data):
         persistence = death - birth
-        if persistence < config.min_persistence or not rep_indices:
+        if persistence < config.min_persistence:
             continue
-        centroid = embeddings[rep_indices].mean(axis=0)
-        distances = np.linalg.norm(embeddings - centroid, axis=1)
-        scores = np.array([(1.0/(d+0.1)) * np.sqrt(token_frequencies.get(tokens[i], 1)) 
-                          for i, d in enumerate(distances)])
-        top_indices = np.argsort(scores)[-config.witness_k:][::-1]
-        witness_tokens = []
+        if not rep_indices:
+            continue
+            
+        # Clamp indices to valid range
+        valid_rep_indices = [i for i in rep_indices if 0 <= i < len(tokens)]
+        if not valid_rep_indices:
+            continue
+        
+        # PRIMARY WITNESSES: tokens from the cocycle itself
+        # These are the actual generators of the homological feature
+        cocycle_witnesses = []
         seen = set()
-        for i in top_indices:
-            if tokens[i] not in seen:
-                witness_tokens.append(tokens[i])
-                seen.add(tokens[i])
+        for i in valid_rep_indices:
+            tok = tokens[i]
+            if tok not in seen:
+                cocycle_witnesses.append(tok)
+                seen.add(tok)
+        
+        # Compute centroid from cocycle vertices
+        centroid = embeddings[valid_rep_indices].mean(axis=0)
+        
+        # If cocycle is small, supplement with geometrically nearby tokens
+        # But cocycle tokens always come first (they're the true witnesses)
+        witness_tokens = cocycle_witnesses.copy()
+        
+        if len(witness_tokens) < config.witness_k:
+            # Find additional nearby tokens
+            distances = np.linalg.norm(embeddings - centroid, axis=1)
+            scores = np.array([
+                (1.0 / (d + 0.1)) * np.sqrt(token_frequencies.get(tokens[i], 1)) 
+                for i, d in enumerate(distances)
+            ])
+            top_indices = np.argsort(scores)[::-1]
+            
+            for i in top_indices:
+                if len(witness_tokens) >= config.witness_k:
+                    break
+                tok = tokens[i]
+                if tok not in seen:
+                    witness_tokens.append(tok)
+                    seen.add(tok)
+        
+        # Truncate to witness_k
+        witness_tokens = witness_tokens[:config.witness_k]
+        
         bars.append(WitnessedBar(
             bar_id=f"{window_id}_bar_{idx}",
             window_id=window_id,
@@ -385,8 +612,9 @@ def construct_witnessed_bars(persistence_data, embeddings, tokens, token_frequen
             death=death,
             persistence=persistence,
             witness_tokens=witness_tokens,
-            witness_centroid=embeddings[top_indices].mean(axis=0)
+            witness_centroid=centroid
         ))
+    
     return bars
 
 
@@ -813,7 +1041,8 @@ def build_self_structure(journeys: Dict[str, Journey], num_windows: int,
 # STAGE 1 VISUALIZATION
 # =============================================================================
 
-def visualize_gluing_ascii(self_struct: SelfStructure, window_ids: List[str], max_journeys: int = 30):
+def visualize_gluing_ascii(self_struct: SelfStructure, window_ids: List[str], max_journeys: int = 30, 
+                          show_newest: bool = False, show_sample: bool = True):
     """
     ASCII visualization of the gluing structure.
     
@@ -821,6 +1050,10 @@ def visualize_gluing_ascii(self_struct: SelfStructure, window_ids: List[str], ma
     - Journey lifelines as horizontal tracks
     - Vertical bars where journeys share witnesses (gluing points)
     - Component membership via color/symbol
+    
+    Parameters:
+    - show_newest: If True, sort by birth_tau descending (newest first)
+    - show_sample: If True, show balanced sample across birth periods
     """
     print("\n" + "═" * 90)
     print("SELF AS HOCOLIM - Stage 1: The Gluing Structure")
@@ -840,13 +1073,41 @@ def visualize_gluing_ascii(self_struct: SelfStructure, window_ids: List[str], ma
     # Component symbols
     COMP_SYMBOLS = ['●', '◆', '■', '▲', '★', '◉', '◈', '▣', '△', '☆']
     
-    # Sort journeys: by component (largest first), then by lifespan
-    def journey_sort_key(jid):
-        comp_idx = journey_to_component.get(jid, 999)
-        lifespan = journeys[jid].lifespan
-        return (comp_idx, -lifespan)
-    
-    sorted_jids = sorted(journeys.keys(), key=journey_sort_key)[:max_journeys]
+    # Select and sort journeys based on mode
+    if show_sample:
+        # Show balanced sample: earliest, middle, and newest spawns
+        all_jids = list(journeys.keys())
+        by_birth = sorted(all_jids, key=lambda jid: journeys[jid].birth_tau)
+        
+        n = max_journeys
+        n_early = n // 3
+        n_late = n // 3
+        n_middle = n - n_early - n_late
+        
+        early_jids = by_birth[:n_early]
+        late_jids = by_birth[-n_late:]
+        middle_start = len(by_birth) // 2 - n_middle // 2
+        middle_jids = by_birth[middle_start:middle_start + n_middle]
+        
+        # Combine and deduplicate, then sort by birth_tau
+        sample_jids = list(dict.fromkeys(early_jids + middle_jids + late_jids))
+        sorted_jids = sorted(sample_jids, key=lambda jid: journeys[jid].birth_tau)
+        
+        print(f"    [Showing sample: {len(early_jids)} early + {len(middle_jids)} middle + {len(late_jids)} late spawns]\n")
+        
+    elif show_newest:
+        # Sort by birth_tau descending (newest first)
+        sorted_jids = sorted(journeys.keys(), 
+                            key=lambda jid: (-journeys[jid].birth_tau, -journeys[jid].lifespan))[:max_journeys]
+        print("    [Sorted by birth_tau: newest spawns first]\n")
+    else:
+        # Default: by component (largest first), then by lifespan
+        def journey_sort_key(jid):
+            comp_idx = journey_to_component.get(jid, 999)
+            lifespan = journeys[jid].lifespan
+            return (comp_idx, -lifespan)
+        
+        sorted_jids = sorted(journeys.keys(), key=journey_sort_key)[:max_journeys]
     
     # Header
     print("    Component │ Journey Signature      │", end="")
@@ -933,6 +1194,44 @@ def visualize_gluing_ascii(self_struct: SelfStructure, window_ids: List[str], ma
         if len(self_struct.hub_tokens) > 15:
             print(f"    ... and {len(self_struct.hub_tokens) - 15} more")
     print(f"\n  Gluing requires ≥{self_struct.min_shared} shared non-hub witnesses")
+
+
+def visualize_generative_frontier(journeys: Dict[str, Journey], window_ids: List[str], n: int = 30):
+    """
+    Show the most recently spawned journeys - the GENERATIVE FRONTIER.
+    
+    These are the new themes emerging, the candidates for genuine novelty.
+    """
+    print("\n" + "═" * 90)
+    print("GENERATIVE FRONTIER — Most Recently Spawned Journeys")
+    print("═" * 90)
+    print("\nThese are the NEWEST themes — where generativity happens.\n")
+    
+    # Sort by birth_tau descending
+    by_birth = sorted(journeys.values(), key=lambda j: (-j.birth_tau, -j.lifespan))[:n]
+    
+    print(f"    {'Birth τ':<10} {'Window':<12} {'Lifespan':<10} {'Signature':<30} {'Top Witnesses'}")
+    print("    " + "─" * 85)
+    
+    for j in by_birth:
+        birth_tau = j.birth_tau
+        window = window_ids[birth_tau] if birth_tau < len(window_ids) else "?"
+        lifespan = j.lifespan
+        sig = j.signature[:28]
+        
+        # Get ALL witnesses from spawn, not just first 3
+        if j.steps and j.steps[0].witness_tokens:
+            witnesses = ", ".join(j.steps[0].witness_tokens[:8])
+        else:
+            witnesses = "?"
+        
+        # Mark if still active (lifespan extends to current τ)
+        active = "★" if j.death_tau >= len(window_ids) - 1 else " "
+        
+        print(f"  {active} τ={birth_tau:<6} {window:<12} {lifespan:<10} {sig:<30} {witnesses}")
+    
+    print("\n    ★ = still active (extends to current window)")
+    print()
 
 
 def visualize_gluing_graph(self_struct: SelfStructure, max_edges: int = 50):
@@ -1099,7 +1398,7 @@ def visualize_presence_heatmap(self_struct: SelfStructure, window_ids: List[str]
 # Main Pipeline
 # =============================================================================
 
-def analyze_window(window_id, tau, conversations, vocabulary, config):
+def analyze_window(window_id, tau, conversations, vocabulary, config, show_cocycles=False):
     print(f"  [{tau}] {window_id}: {len(conversations)} convs", end="", flush=True)
     tokens, frequencies = sample_tokens_from_vocabulary(
         conversations, vocabulary, config.tokens_per_window,
@@ -1119,13 +1418,24 @@ def analyze_window(window_id, tau, conversations, vocabulary, config):
     persistence = compute_persistence(embeddings, config.max_edge_length)
     print(f" → PH ({time.time()-t0:.1f}s)", end="", flush=True)
     
+    # Cocycle diagnostics for first window
+    if tau == 0 and persistence:
+        h0_bars = [p for p in persistence if p[0] == 0]
+        h1_bars = [p for p in persistence if p[0] == 1]
+        avg_h1_cycle_size = np.mean([len(p[3]) for p in h1_bars]) if h1_bars else 0
+        print(f"\n    [Cocycle info: {len(h0_bars)} H0, {len(h1_bars)} H1, avg cycle size: {avg_h1_cycle_size:.1f}]", end="")
+        
+        # Detailed cocycle output if requested
+        if show_cocycles:
+            visualize_cocycles(persistence, tokens)
+    
     bars = construct_witnessed_bars(persistence, embeddings, tokens, frequencies, window_id, config)
     print(f" → {len(bars)} bars")
     
     return {'window_id': window_id, 'tau': tau, 'bars': bars}
 
 
-def run_analysis(conversations, config, start_from=None, test_mode=False):
+def run_analysis(conversations, config, start_from=None, test_mode=False, show_cocycles=False):
     print("\nCreating monthly windows...")
     all_windows = create_monthly_windows(conversations)
     window_ids = list(all_windows.keys())
@@ -1148,7 +1458,8 @@ def run_analysis(conversations, config, start_from=None, test_mode=False):
     print("\nAnalyzing windows...")
     window_analyses = []
     for tau, wid in enumerate(window_ids):
-        w = analyze_window(wid, tau, all_windows[wid], vocabulary, config)
+        w = analyze_window(wid, tau, all_windows[wid], vocabulary, config, 
+                          show_cocycles=(show_cocycles and tau == 0))
         window_analyses.append(w)
     
     print("\nMatching bars...")
@@ -1183,6 +1494,10 @@ def main():
                        help="Include LaTeX/code tokens as potential witnesses (default: filtered)")
     parser.add_argument("--export-viz", action="store_true",
                        help="Export HTML/SVG/CSV visualizations")
+    parser.add_argument("--show-cocycles", action="store_true",
+                       help="Show detailed cocycle information for first window")
+    parser.add_argument("--start-date", 
+                       help="Filter conversations to start from this date (YYYY-MM-DD or YYYY-MM)")
     
     args = parser.parse_args()
     
@@ -1193,11 +1508,46 @@ def main():
     )
     conversations = load_conversations(args.input)
     
+    # Filter by start date if specified
+    if args.start_date:
+        from datetime import datetime
+        # Parse flexible date format
+        if len(args.start_date) == 7:  # YYYY-MM
+            start_dt = datetime.strptime(args.start_date + "-01", "%Y-%m-%d")
+        else:  # YYYY-MM-DD
+            start_dt = datetime.strptime(args.start_date, "%Y-%m-%d")
+        
+        start_timestamp = start_dt.timestamp()
+        
+        original_count = len(conversations)
+        filtered = []
+        for conv in conversations:
+            # Use create_time (Unix timestamp) - same field as windowing uses
+            create_time = conv.get('create_time')
+            if create_time:
+                if create_time >= start_timestamp:
+                    filtered.append(conv)
+            else:
+                # Fallback to created_at if create_time not present
+                conv_date = conv.get('created_at', conv.get('updated_at', ''))
+                if conv_date:
+                    try:
+                        conv_dt = datetime.fromisoformat(conv_date.replace('Z', '+00:00'))
+                        if conv_dt.replace(tzinfo=None) >= start_dt:
+                            filtered.append(conv)
+                    except:
+                        filtered.append(conv)  # Keep if can't parse
+                else:
+                    filtered.append(conv)  # Keep if no date
+        conversations = filtered
+        print(f"  Filtered to conversations from {args.start_date}: {original_count} → {len(conversations)}")
+    
     # Run core analysis
     journeys, window_ids = run_analysis(
         conversations, config, 
         start_from=args.start_from, 
-        test_mode=args.test
+        test_mode=args.test,
+        show_cocycles=args.show_cocycles
     )
     
     # Build Self structure with discriminative gluing
@@ -1216,6 +1566,7 @@ def main():
     
     # Visualizations
     visualize_gluing_ascii(self_struct, window_ids)
+    visualize_generative_frontier(journeys, window_ids)  # NEW: Show newest spawns
     visualize_components_summary(self_struct)
     visualize_gluing_graph(self_struct)
     presence_states = visualize_presence_heatmap(self_struct, window_ids)
@@ -1242,31 +1593,75 @@ def main():
                 'signatures': [journeys[jid].signature for jid in list(comp)[:10] if jid in journeys]
             }
             for idx, comp in enumerate(self_struct.components[:20])
-        ],
-        'gluing_edges': [
-            {
-                'journey_a': e.journey_a,
-                'journey_b': e.journey_b,
-                'shared_witnesses': list(e.shared_witnesses),
-                'tau': e.tau
-            }
-            for e in self_struct.gluing_edges[:500]
-        ],
-        'journeys': [
-            {
-                'id': jid,
-                'signature': j.signature,
-                'lifespan': j.lifespan,
-                'has_reentry': j.has_reentry,
-                'all_witnesses': list(j.all_witnesses())[:20],
-                'steps': [
-                    {'tau': s.tau, 'event': s.event.value, 'witnesses': s.witness_tokens[:8]}
-                    for s in j.steps
-                ]
-            }
-            for jid, j in list(journeys.items())[:200]
         ]
     }
+    
+    # Prioritize cross-temporal edges for visualization
+    # Compute τ thresholds
+    all_taus = [j.birth_tau for j in journeys.values()]
+    min_tau, max_tau = min(all_taus), max(all_taus)
+    tau_range = max(max_tau - min_tau, 1)
+    early_thresh = min_tau + tau_range * 0.33
+    late_thresh = min_tau + tau_range * 0.66
+    
+    def get_period(jid):
+        tau = journeys[jid].birth_tau if jid in journeys else 0
+        if tau < early_thresh:
+            return 'early'
+        elif tau > late_thresh:
+            return 'late'
+        return 'middle'
+    
+    cross_temporal = []
+    same_period = []
+    
+    for e in self_struct.gluing_edges:
+        period_a = get_period(e.journey_a)
+        period_b = get_period(e.journey_b)
+        edge_dict = {
+            'journey_a': e.journey_a,
+            'journey_b': e.journey_b,
+            'shared_witnesses': list(e.shared_witnesses),
+            'tau': e.tau,
+            'cross_temporal': period_a != period_b  # Flag for visualization
+        }
+        if period_a != period_b:
+            cross_temporal.append(edge_dict)
+        else:
+            same_period.append(edge_dict)
+    
+    # Export ALL edges - prioritize cross-temporal for visualization sampling
+    # Put cross-temporal first so visualization can sample from front
+    all_edges = cross_temporal + same_period
+    self_data['gluing_edges'] = all_edges
+    self_data['cross_temporal_edge_count'] = len(cross_temporal)
+    print(f"  Exporting ALL {len(all_edges)} edges ({len(cross_temporal)} cross-temporal, {len(same_period)} same-period)")
+    
+    # Precompute glued_with_count for each journey
+    glued_counts = {jid: 0 for jid in journeys}
+    for e in self_struct.gluing_edges:
+        if e.journey_a in glued_counts:
+            glued_counts[e.journey_a] += 1
+        if e.journey_b in glued_counts:
+            glued_counts[e.journey_b] += 1
+    
+    # Add journeys with birth_tau and glued_with_count
+    self_data['journeys'] = [
+        {
+            'id': jid,
+            'signature': j.signature,
+            'birth_tau': j.birth_tau,  # Added for temporal visualization
+            'lifespan': j.lifespan,
+            'has_reentry': j.has_reentry,
+            'glued_with_count': glued_counts.get(jid, 0),
+            'all_witnesses': list(j.all_witnesses())[:20],
+            'steps': [
+                {'tau': s.tau, 'event': s.event.value, 'witnesses': s.witness_tokens[:8]}
+                for s in j.steps
+            ]
+        }
+        for jid, j in journeys.items()  # No limit - export all
+    ]
     
     with open(os.path.join(config.output_dir, "self_structure.json"), 'w') as f:
         json.dump(self_data, f, indent=2)
