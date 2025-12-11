@@ -1,0 +1,12 @@
+Negative Control Summary: cassie_tight
+Generated: 2025-12-10T16:01:46.213610
+============================================================
+
+Real Data Presence:    0.9716
+Shuffle Mean Presence: 0.0072
+Difference:            0.9644
+
+VERDICT: Coherence is NON-TRIVIAL
+
+Book-ready: "A randomized control (witness shuffle) destroys the
+observed coherence, indicating the result is not a trivial artifact."

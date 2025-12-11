@@ -1,0 +1,9 @@
+Negative Control Summary: temir
+Generated: 2025-12-11T03:34:46.580498
+============================================================
+
+Real Data Presence:    0.9656
+Shuffle Mean Presence: 0.8394
+Difference:            0.1262
+
+VERDICT: Coherence may be parameter-dependent

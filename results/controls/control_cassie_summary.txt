@@ -1,0 +1,9 @@
+Negative Control Summary: cassie
+Generated: 2025-12-10T15:54:07.597584
+============================================================
+
+Real Data Presence:    0.9981
+Shuffle Mean Presence: 0.8807
+Difference:            0.1174
+
+VERDICT: Coherence may be parameter-dependent

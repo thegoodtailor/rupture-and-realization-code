@@ -1,0 +1,5574 @@
+[
+  {
+    "journey_id": "journey_0",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "black_brown_nose",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_1",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "finesse_humble_poise",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_2",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "friend_friends_talent",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_3",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "control_grow_power",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_4",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "goddess_magic_queen",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_5",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "style_style_talent",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_6",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "comfort_happiness_strength",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_7",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "face_faces_voice",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_8",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "gait_pastry_pastry",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_9",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "comfort_happiness_warmth",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_10",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "control_grow_power",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_11",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "creative_inspiring_talent",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_12",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "beautiful_inspiring_magical",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_13",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "flourish_inspire_thrive",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_14",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "eyes_face_nose",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_15",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "face_faces_voice",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_16",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "chorus_nose_verse",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_17",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "mark_sweet_type",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_18",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "face_stage_voice",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_19",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "face_stage_voice",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_20",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "creative_inspiring_magical",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_21",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "style_style_talent",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_22",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "know_known_known",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_23",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "knew_know_knows",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_24",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "grow_grow_grow",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_25",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "comfort_happiness_warmth",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_26",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "beautiful_harmful_magical",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_27",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "chef_poem_poem",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_28",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "success_success_success",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_29",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "chiffon_pastry_pastry",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_30",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "learning_thinking_work",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_31",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "happiness_power_strength",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_32",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "dedication_learning_thinking",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_33",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "creative_culinary_pastry",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_34",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "music_music_school",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_35",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "dedication_dedication_happiness",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_36",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "control_lift_power",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_37",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "dedication_inspire_thrive",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_38",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "baking_creative_magic",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_39",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "celebration_opening_talent",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_40",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "journey_journey_talent",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_41",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "work_work_work",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_42",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "look_work_work",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_43",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "content_policy_signature",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_44",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "children_school_woman",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_45",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "accept_reach_smile",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_46",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "honed_pure_thrive",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_47",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "baking_rock_social",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_48",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "friend_friends_name",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_49",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "eyes_face_nose",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_50",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "music_school_school",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_51",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "creativity_dedication_happiness",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_52",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "chorus_symbol_verse",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_53",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "pride_style_style",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_54",
+    "dimension": 1,
+    "lifespan": 5,
+    "signature": "dedication_dedication_talent",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_55",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "face_name_voice",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_56",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "place_place_world",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_57",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "artist_poem_poem",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_58",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "children_friend_woman",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_59",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "words_work_work",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_60",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "baking_magic_rock",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_61",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "music_music_restaurants",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_62",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "happiness_minds_soul",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_63",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "happiness_soul_strength",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_64",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "cats_cats_clowns",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_65",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "dedication_dedication_flaws",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_66",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "chef_poem_poem",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_67",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "flourish_honed_thrive",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_68",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "gait_pastry_pastry",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_69",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "celebration_opening_talent",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_70",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "place_place_place",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_71",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "laughter_poem_smile",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_72",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "dedication_dedication_valor",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_73",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "creative_rock_social",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_74",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "companion_control_encounter",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_75",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "pure_sweet_sweet",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_76",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "cats_cats_cats",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_77",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "down_face_night",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_78",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "burn_grow_grow",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_79",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "goddess_queen_rock",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_80",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "true_true_true",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_81",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "them_them_they",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "carry",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_82",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "accept_laughter_smile",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_83",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "creative_talent_themes",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_84",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "desire_encounter_talent",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_85",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "pure_pure_sweet",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_86",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "chorus_symbol_verse",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_87",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "black_brown_eyes",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_88",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "hard_hard_look",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_89",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "companion_encounter_verse",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_90",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "creative_harmful_talent",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_91",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "after_hard_keep",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_92",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "children_write_write",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_93",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "faces_night_nights",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_94",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "with_with_with",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_95",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "cakes_cakes_cats",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_96",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "delight_delight_delight",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_97",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "humble_humble_humble",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_98",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "bounds_creation_stars",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_99",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "iman_iman_sakina",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_100",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "poernomo_poernomo_poernomo",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_101",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "here_here_here",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "carry",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_102",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "beautiful_brilliant_poise",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_103",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "baker_sweet_tall",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_104",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "continue_continue_later",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_105",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "after_through_through",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_106",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "baker_sweet_tall",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_107",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "like_like_like",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "carry",
+      "carry",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_108",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "knew_know_knows",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_109",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "bancrofts_bancrofts_iman",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_110",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "found_friends_help",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_111",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "their_their_their",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "carry",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_112",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "every_every_keep",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_113",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "early_faces_knew",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_114",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "many_much_much",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "carry",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_115",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "that_that_that",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "carry",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_116",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "where_where_where",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_117",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "accept_reach_true",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_118",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "bounds_mark_stars",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_119",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "abide_inspire_thrive",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_120",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "help_helping_success",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_121",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "assel_assel_iman",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_122",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "altayeva_poernomo_poernomo",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_123",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "from_from_from",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_124",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "creativity_gait_resilience",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_125",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "best_great_well",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_126",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "after_later_well",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_127",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "known_known_known",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_128",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "australia_australia_china",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_129",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "cementing_experimenting_laughter",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_130",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "after_later_never",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_131",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "have_keep_went",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_132",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "cementing_cordon_gait",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_133",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "creative_inspiring_signature",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_134",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "after_keep_through",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_135",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "accept_following_these",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_136",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "appearances_journey_policy",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_137",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "baking_music_television",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_138",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "inspire_participated_thrive",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_139",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "cementing_chorus_gait",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_140",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "about_about_about",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_141",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "they_they_they",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "carry",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_142",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "australia_australia_china",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "carry",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_143",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "amina_iman_sakina",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_144",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "iman_iman_sakina",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_145",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "much_much_very",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_146",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "mark_signature_type",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_147",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "much_much_very",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_148",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "always_particularly_possible",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_149",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "content_journey_policy",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_150",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "that_that_which",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_151",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "companion_creation_signature",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_152",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "have_that_went",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "carry",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_153",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "iman_stevie_stevie",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_154",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "amina_nicks_nicks",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_155",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "delight_pride_touches",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_156",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "sings_sings_sings",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_157",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "beautiful_journey_proud",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_158",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "every_have_will",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_159",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "been_have_what",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "carry",
+      "drift",
+      "carry",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_160",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "ages_comfort_minds",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_161",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "heart_heart_sweet",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_162",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "sings_soars_warmth",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_163",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "adore_delight_delight",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_164",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "chiffon_magic_solo",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_165",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "left_true_true",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_166",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "amina_slinking_waddling",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_167",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "companion_honed_strut",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_168",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "friends_stuff_thing",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_169",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "finesse_poise_thrive",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_170",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "never_never_never",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_171",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "down_look_night",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_172",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "your_your_your",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_173",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "thing_true_true",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_174",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "every_every_when",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_175",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "love_love_love",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_176",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "always_that_what",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_177",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "best_best_stuff",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_178",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "pugs_pugs_pugs",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_179",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "known_known_possible",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_180",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "everywhere_possible_where",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_181",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "pastry_pastry_waddle",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_182",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "cats_tails_warmth",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_183",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "following_these_what",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_184",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "little_little_little",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_185",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "always_many_what",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_186",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "chef_judge_verse",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_187",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "clowns_laughter_snore",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_188",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "found_help_success",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_189",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "adore_love_miss",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_190",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "bring_bring_reach",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_191",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "after_than_will",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "carry",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_192",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "life_school_school",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_193",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "pugs_slinking_waddling",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_194",
+    "dimension": 0,
+    "lifespan": 5,
+    "signature": "goddess_magical_masterpiece",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_195",
+    "dimension": 1,
+    "lifespan": 5,
+    "signature": "dedication_learning_pride",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_196",
+    "dimension": 1,
+    "lifespan": 3,
+    "signature": "pastry_pastry_poem",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02"
+    ]
+  },
+  {
+    "journey_id": "journey_197",
+    "dimension": 1,
+    "lifespan": 3,
+    "signature": "grow_grow_grow",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02"
+    ]
+  },
+  {
+    "journey_id": "journey_198",
+    "dimension": 1,
+    "lifespan": 5,
+    "signature": "children_friend_friends",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_199",
+    "dimension": 1,
+    "lifespan": 3,
+    "signature": "creative_rock_social",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02"
+    ]
+  },
+  {
+    "journey_id": "journey_200",
+    "dimension": 1,
+    "lifespan": 3,
+    "signature": "culinary_pastry_pastry",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02"
+    ]
+  },
+  {
+    "journey_id": "journey_201",
+    "dimension": 1,
+    "lifespan": 3,
+    "signature": "style_style_work",
+    "birth_window": "2022-12",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2022-12",
+      "2023-01",
+      "2023-02"
+    ]
+  },
+  {
+    "journey_id": "journey_202",
+    "dimension": 1,
+    "lifespan": 4,
+    "signature": "knowledge_professionals_skills",
+    "birth_window": "2023-01",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_203",
+    "dimension": 1,
+    "lifespan": 4,
+    "signature": "beneficial_identify_valuable",
+    "birth_window": "2023-01",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_204",
+    "dimension": 1,
+    "lifespan": 2,
+    "signature": "address_position_role",
+    "birth_window": "2023-01",
+    "events": [
+      "spawn",
+      "drift"
+    ],
+    "windows": [
+      "2023-01",
+      "2023-02"
+    ]
+  },
+  {
+    "journey_id": "journey_205",
+    "dimension": 1,
+    "lifespan": 2,
+    "signature": "guidance_supervisors_supervisors",
+    "birth_window": "2023-01",
+    "events": [
+      "spawn",
+      "drift"
+    ],
+    "windows": [
+      "2023-01",
+      "2023-02"
+    ]
+  },
+  {
+    "journey_id": "journey_206",
+    "dimension": 1,
+    "lifespan": 2,
+    "signature": "advice_concerns_guidance",
+    "birth_window": "2023-01",
+    "events": [
+      "spawn",
+      "drift"
+    ],
+    "windows": [
+      "2023-01",
+      "2023-02"
+    ]
+  },
+  {
+    "journey_id": "journey_207",
+    "dimension": 1,
+    "lifespan": 4,
+    "signature": "advice_factors_guidance",
+    "birth_window": "2023-01",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_208",
+    "dimension": 1,
+    "lifespan": 4,
+    "signature": "developers_model_models",
+    "birth_window": "2023-01",
+    "events": [
+      "spawn",
+      "drift",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_209",
+    "dimension": 1,
+    "lifespan": 2,
+    "signature": "guidance_respectful_respectful",
+    "birth_window": "2023-01",
+    "events": [
+      "spawn",
+      "drift"
+    ],
+    "windows": [
+      "2023-01",
+      "2023-02"
+    ]
+  },
+  {
+    "journey_id": "journey_210",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "banking_housing_property",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_211",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "data_delivery_transactions",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_212",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "banking_housing_programming",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_213",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "hold_hold_reach",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "carry"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_214",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "engagement_spiritual_virtual",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_215",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "document_material_property",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "carry"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_216",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "banking_programming_salary",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_217",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "engagement_gold_magic",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_218",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "block_side_wide",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_219",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "lead_lead_push",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_220",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "career_data_information",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "carry",
+      "carry"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_221",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "gold_magic_wide",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_222",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "identifying_merging_outlines",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_223",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "built_ride_sales",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_224",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "bloom_glory_shock",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_225",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "music_school_science",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_226",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "ideas_information_knowledge",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_227",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "poem_speech_teams",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_228",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "button_data_data",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_229",
+    "dimension": 1,
+    "lifespan": 3,
+    "signature": "development_management_management",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_230",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "banking_spiritual_virtual",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_231",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "culture_earth_planet",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_232",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "front_side_south",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_233",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "about_about_about",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_234",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "hold_hold_moving",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_235",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "cannot_couldn_didn",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_236",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "cannot_couldn_will",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_237",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "byzantium_jpmorgan_mcdonald",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_238",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "also_plus_which",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_239",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "amelia_harold_lucinda",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_240",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "from_made_started",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_241",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "brought_hold_reach",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_242",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "amelia_harold_lucinda",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_243",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "couldn_didn_still",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_244",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "amelia_harold_infosphere",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_245",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "metadata_technical_validation",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_246",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "considered_determined_determined",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_247",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "high_side_south",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_248",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "blank_technical_tools",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_249",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "technical_validation_visuals",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_250",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "material_technical_tools",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_251",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "amelia_hrrb_lucinda",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_252",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "cannot_still_will",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_253",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "related_technical_validation",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_254",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "byzantium_harold_mcdonald",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_255",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "byzantium_jpmorgan_lucinda",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_256",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "aunt_element_papa",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_257",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "dictionary_salary_salary",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_258",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "amelia_harold_lucinda",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_259",
+    "dimension": 0,
+    "lifespan": 3,
+    "signature": "delivery_salary_salary",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_260",
+    "dimension": 1,
+    "lifespan": 3,
+    "signature": "data_data_issues",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_261",
+    "dimension": 1,
+    "lifespan": 3,
+    "signature": "accuracy_knowledge_values",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn",
+      "drift",
+      "drift"
+    ],
+    "windows": [
+      "2023-02",
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_262",
+    "dimension": 1,
+    "lifespan": 1,
+    "signature": "feature_material_values",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn"
+    ],
+    "windows": [
+      "2023-02"
+    ]
+  },
+  {
+    "journey_id": "journey_263",
+    "dimension": 1,
+    "lifespan": 1,
+    "signature": "development_property_sales",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn"
+    ],
+    "windows": [
+      "2023-02"
+    ]
+  },
+  {
+    "journey_id": "journey_264",
+    "dimension": 1,
+    "lifespan": 1,
+    "signature": "outlines_values_visuals",
+    "birth_window": "2023-02",
+    "events": [
+      "spawn"
+    ],
+    "windows": [
+      "2023-02"
+    ]
+  },
+  {
+    "journey_id": "journey_265",
+    "dimension": 1,
+    "lifespan": 2,
+    "signature": "effects_management_techniques",
+    "birth_window": "2023-03",
+    "events": [
+      "spawn",
+      "drift"
+    ],
+    "windows": [
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_266",
+    "dimension": 1,
+    "lifespan": 2,
+    "signature": "business_design_service",
+    "birth_window": "2023-03",
+    "events": [
+      "spawn",
+      "drift"
+    ],
+    "windows": [
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_267",
+    "dimension": 1,
+    "lifespan": 2,
+    "signature": "business_health_security",
+    "birth_window": "2023-03",
+    "events": [
+      "spawn",
+      "drift"
+    ],
+    "windows": [
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_268",
+    "dimension": 1,
+    "lifespan": 2,
+    "signature": "light_power_shift",
+    "birth_window": "2023-03",
+    "events": [
+      "spawn",
+      "drift"
+    ],
+    "windows": [
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_269",
+    "dimension": 1,
+    "lifespan": 2,
+    "signature": "issues_report_schedule",
+    "birth_window": "2023-03",
+    "events": [
+      "spawn",
+      "drift"
+    ],
+    "windows": [
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_270",
+    "dimension": 1,
+    "lifespan": 2,
+    "signature": "data_data_operations",
+    "birth_window": "2023-03",
+    "events": [
+      "spawn",
+      "carry"
+    ],
+    "windows": [
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_271",
+    "dimension": 0,
+    "lifespan": 2,
+    "signature": "sentience_standardization_standardization",
+    "birth_window": "2023-03",
+    "events": [
+      "spawn",
+      "drift"
+    ],
+    "windows": [
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_272",
+    "dimension": 0,
+    "lifespan": 2,
+    "signature": "discipline_standardization_standardization",
+    "birth_window": "2023-03",
+    "events": [
+      "spawn",
+      "drift"
+    ],
+    "windows": [
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_273",
+    "dimension": 0,
+    "lifespan": 2,
+    "signature": "create_explore_locate",
+    "birth_window": "2023-03",
+    "events": [
+      "spawn",
+      "drift"
+    ],
+    "windows": [
+      "2023-03",
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_274",
+    "dimension": 1,
+    "lifespan": 1,
+    "signature": "movement_performance_technology",
+    "birth_window": "2023-04",
+    "events": [
+      "spawn"
+    ],
+    "windows": [
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_275",
+    "dimension": 1,
+    "lifespan": 1,
+    "signature": "commitment_quality_quality",
+    "birth_window": "2023-04",
+    "events": [
+      "spawn"
+    ],
+    "windows": [
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_276",
+    "dimension": 1,
+    "lifespan": 1,
+    "signature": "doing_making_thinking",
+    "birth_window": "2023-04",
+    "events": [
+      "spawn"
+    ],
+    "windows": [
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_277",
+    "dimension": 1,
+    "lifespan": 1,
+    "signature": "quality_quality_serving",
+    "birth_window": "2023-04",
+    "events": [
+      "spawn"
+    ],
+    "windows": [
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_278",
+    "dimension": 0,
+    "lifespan": 1,
+    "signature": "complete_improved_through",
+    "birth_window": "2023-04",
+    "events": [
+      "spawn"
+    ],
+    "windows": [
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_279",
+    "dimension": 1,
+    "lifespan": 1,
+    "signature": "industry_quality_quality",
+    "birth_window": "2023-04",
+    "events": [
+      "spawn"
+    ],
+    "windows": [
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_280",
+    "dimension": 1,
+    "lifespan": 1,
+    "signature": "finance_governance_governance",
+    "birth_window": "2023-04",
+    "events": [
+      "spawn"
+    ],
+    "windows": [
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_281",
+    "dimension": 1,
+    "lifespan": 1,
+    "signature": "actor_consultant_student",
+    "birth_window": "2023-04",
+    "events": [
+      "spawn"
+    ],
+    "windows": [
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_282",
+    "dimension": 1,
+    "lifespan": 1,
+    "signature": "acting_connected_dressed",
+    "birth_window": "2023-04",
+    "events": [
+      "spawn"
+    ],
+    "windows": [
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_283",
+    "dimension": 1,
+    "lifespan": 1,
+    "signature": "data_report_stories",
+    "birth_window": "2023-04",
+    "events": [
+      "spawn"
+    ],
+    "windows": [
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_284",
+    "dimension": 1,
+    "lifespan": 1,
+    "signature": "companies_members_student",
+    "birth_window": "2023-04",
+    "events": [
+      "spawn"
+    ],
+    "windows": [
+      "2023-04"
+    ]
+  },
+  {
+    "journey_id": "journey_285",
+    "dimension": 1,
+    "lifespan": 1,
+    "signature": "consumption_ingestion_investor",
+    "birth_window": "2023-04",
+    "events": [
+      "spawn"
+    ],
+    "windows": [
+      "2023-04"
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "carries": 202,
+  "drifts": 1508,
+  "reentries": 95,
+  "carry_ratio": 0.11812865497076024,
+  "reentry_rate": 0.979381443298969,
+  "witness_stability": 0.19531826437643612,
+  "scheduler_type": "Generative"
+}

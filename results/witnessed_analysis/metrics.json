@@ -1,0 +1,12 @@
+{
+  "num_journeys": 286,
+  "spawns": 286,
+  "carries": 18,
+  "drifts": 909,
+  "reentries": 0,
+  "carry_ratio": 0.019417475728155338,
+  "reentry_rate": 0.0,
+  "mean_lifespan": 4.241258741258742,
+  "witness_stability": 0.056447572542761254,
+  "scheduler_type": "Avoidant"
+}

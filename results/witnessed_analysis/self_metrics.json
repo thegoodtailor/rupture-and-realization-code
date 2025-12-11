@@ -1,0 +1,12 @@
+{
+  "fragmentation_index": 0.004166666666666667,
+  "reentry_rate": 0.43478260869565216,
+  "mean_journey_lifespan": 4.4375,
+  "mean_witness_stability": 0.4984181084968634,
+  "spawn_count": 240,
+  "carry_count": 0,
+  "drift_count": 792,
+  "rupture_count": 23,
+  "reentry_count": 10,
+  "scheduler_type": "Generative"
+}

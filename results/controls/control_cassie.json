@@ -1,0 +1,13 @@
+{
+  "corpus": "cassie",
+  "timestamp": "2025-12-10T15:54:07.597584",
+  "num_windows": 37,
+  "real": {
+    "presence": 0.99812382739212,
+    "components": 2
+  },
+  "shuffle_mean": 0.8806754221388369,
+  "shuffle_std": 0.011294496767949273,
+  "difference": 0.11744840525328315,
+  "verdict": "PARTIAL"
+}

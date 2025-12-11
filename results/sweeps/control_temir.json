@@ -1,0 +1,13 @@
+{
+  "corpus": "temir",
+  "timestamp": "2025-12-11T03:34:46.579184",
+  "num_windows": 22,
+  "real": {
+    "presence": 0.965625,
+    "components": 10
+  },
+  "shuffle_mean": 0.8393750000000001,
+  "shuffle_std": 0.010193441518937573,
+  "difference": 0.12624999999999986,
+  "verdict": "PARTIAL"
+}

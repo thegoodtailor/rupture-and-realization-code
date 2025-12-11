@@ -450,8 +450,10 @@ def compute_persistence(embeddings, max_edge=2.0):
         
         # Process H0 (connected components)
         for i, (birth, death) in enumerate(diagrams[0]):
+            # EXCLUDE infinite H0 bar - it's the ambient connected component
+            # and would trivially connect everything (Cassie's suggestion)
             if death == np.inf:
-                death = max_edge
+                continue  # Skip entirely, not convert to max_edge
             if death - birth < 0.001:  # Skip trivial bars
                 continue
             # H0 cocycles are just vertex indices
@@ -463,8 +465,9 @@ def compute_persistence(embeddings, max_edge=2.0):
         
         # Process H1 (loops) - THIS IS WHERE COCYCLES MATTER
         for i, (birth, death) in enumerate(diagrams[1]):
+            # H1 infinite bars are rare but should also be excluded
             if death == np.inf:
-                death = max_edge
+                continue
             if death - birth < 0.001:
                 continue
             # H1 cocycles are arrays of [vertex_i, vertex_j, coefficient]
@@ -831,7 +834,8 @@ class SelfStructure:
     gluing_edges: List[GluingEdge]
     components: List[Set[str]]  # Connected components of journeys
     hub_tokens: Set[str] = field(default_factory=set)  # Tokens excluded from gluing
-    min_shared: int = 2  # Minimum shared witnesses for gluing
+    min_shared: int = 3  # Minimum shared witnesses for gluing
+    min_jaccard: float = 0.03  # Minimum Jaccard similarity for gluing
     
     @property
     def num_journeys(self) -> int:
@@ -926,7 +930,7 @@ def identify_hub_tokens(journeys: Dict[str, Journey], hub_threshold: float = 0.4
 
 
 def compute_gluing_cumulative(journeys: Dict[str, Journey], num_windows: int, min_shared: int = 1, 
-                              hub_threshold: float = 0.4) -> Tuple[List[GluingEdge], Set[str]]:
+                              hub_threshold: float = 0.4, min_jaccard: float = 0.0) -> Tuple[List[GluingEdge], Set[str]]:
     """
     Compute cumulative gluing across all time with DISCRIMINATIVE filtering.
     
@@ -961,8 +965,30 @@ def compute_gluing_cumulative(journeys: Dict[str, Journey], num_windows: int, mi
                     pair_taus[(jid_a, jid_b)].append(tau)
     
     edges = []
+    # Pre-compute all witnesses per journey for Jaccard calculation
+    journey_all_witnesses = {}
+    for jid, journey in journeys.items():
+        all_w = set()
+        for step in journey.steps:
+            all_w.update(step.witness_tokens)
+        # Remove hub tokens
+        all_w -= hub_tokens
+        journey_all_witnesses[jid] = all_w
+    
     for (jid_a, jid_b), witnesses in pair_witnesses.items():
         if len(witnesses) >= min_shared:
+            # Compute Jaccard if threshold is set
+            if min_jaccard > 0:
+                all_a = journey_all_witnesses.get(jid_a, set())
+                all_b = journey_all_witnesses.get(jid_b, set())
+                union = all_a | all_b
+                if union:
+                    jaccard = len(witnesses) / len(union)
+                else:
+                    jaccard = 0
+                if jaccard < min_jaccard:
+                    continue  # Skip - doesn't meet Jaccard threshold
+            
             # Use the first tau where they shared
             first_tau = min(pair_taus[(jid_a, jid_b)])
             edges.append(GluingEdge(
@@ -1017,7 +1043,8 @@ def find_connected_components(journeys: Dict[str, Journey], edges: List[GluingEd
 
 
 def build_self_structure(journeys: Dict[str, Journey], num_windows: int, 
-                         min_shared: int = 2, hub_threshold: float = 0.4) -> SelfStructure:
+                         min_shared: int = 3, hub_threshold: float = 0.4,
+                         min_jaccard: float = 0.03) -> SelfStructure:
     """
     Build the complete Self structure as a hocolim with discriminative gluing.
     
@@ -1025,7 +1052,7 @@ def build_self_structure(journeys: Dict[str, Journey], num_windows: int,
         min_shared: Minimum number of non-hub shared witnesses to create a gluing edge
         hub_threshold: Tokens appearing in more than this fraction of journeys are hubs
     """
-    edges, hub_tokens = compute_gluing_cumulative(journeys, num_windows, min_shared, hub_threshold)
+    edges, hub_tokens = compute_gluing_cumulative(journeys, num_windows, min_shared, hub_threshold, min_jaccard)
     components = find_connected_components(journeys, edges)
     
     return SelfStructure(
@@ -1033,7 +1060,8 @@ def build_self_structure(journeys: Dict[str, Journey], num_windows: int,
         gluing_edges=edges,
         components=components,
         hub_tokens=hub_tokens,
-        min_shared=min_shared
+        min_shared=min_shared,
+        min_jaccard=min_jaccard
     )
 
 
@@ -1486,8 +1514,10 @@ def main():
     parser.add_argument("--start-from", help="Start from this window (e.g., 2024-04)")
     parser.add_argument("--test", action="store_true", help="Test mode (8 windows)")
     parser.add_argument("--tokens-per-window", type=int, default=500)
-    parser.add_argument("--min-shared", type=int, default=2, 
+    parser.add_argument("--min-shared", type=int, default=3, 
                        help="Minimum non-hub shared witnesses for gluing (default: 2)")
+    parser.add_argument("--min-jaccard", type=float, default=0.03,
+                       help="Minimum Jaccard similarity for gluing (default: 0.0, try 0.05-0.1)")
     parser.add_argument("--hub-threshold", type=float, default=0.4,
                        help="Tokens in >X%% of journeys are hubs (default: 0.4)")
     parser.add_argument("--include-technical", action="store_true",
@@ -1555,13 +1585,15 @@ def main():
     print("BUILDING SELF AS HOCOLIM")
     print(f"  Hub threshold: {args.hub_threshold} (tokens in >{args.hub_threshold*100:.0f}% journeys excluded)")
     print(f"  Min shared witnesses: {args.min_shared}")
+    print(f"  Min Jaccard similarity: {args.min_jaccard}")
     print(f"  Technical filtering: {'OFF' if args.include_technical else 'ON'}")
     print("=" * 90)
     
     self_struct = build_self_structure(
         journeys, len(window_ids),
         min_shared=args.min_shared,
-        hub_threshold=args.hub_threshold
+        hub_threshold=args.hub_threshold,
+        min_jaccard=args.min_jaccard
     )
     
     # Visualizations
