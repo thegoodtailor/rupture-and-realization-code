@@ -1,0 +1,1862 @@
+{
+  "role": "ASSISTANT",
+  "period": "2022-12 to 2025-12",
+  "num_journeys": 539,
+  "num_components": 11,
+  "presence_ratio": 0.9814471243042672,
+  "num_edges": 60387,
+  "hub_tokens": [
+    "music",
+    "name",
+    "storage",
+    "service",
+    "doctor",
+    "management",
+    "field",
+    "types",
+    "love",
+    "night",
+    "analytics",
+    "step",
+    "model",
+    "relationships",
+    "rupture",
+    "code",
+    "provide",
+    "meaning",
+    "based",
+    "help",
+    "processing",
+    "organization",
+    "platform",
+    "process",
+    "records",
+    "information",
+    "performance",
+    "governance",
+    "compliance",
+    "regulatory",
+    "requirements",
+    "used",
+    "ensure",
+    "date",
+    "data",
+    "book",
+    "specific",
+    "verse",
+    "need",
+    "systems",
+    "chorus",
+    "real",
+    "work",
+    "chapter",
+    "production",
+    "semantic",
+    "path",
+    "create",
+    "tools",
+    "time"
+  ],
+  "journeys": [
+    {
+      "id": "journey_295",
+      "signature": "world_scene_stars",
+      "birth_tau": 12,
+      "lifespan": 50,
+      "has_reentry": true,
+      "num_witnesses": 243,
+      "glued_with_count": 266
+    },
+    {
+      "id": "journey_296",
+      "signature": "bright_dark_scene",
+      "birth_tau": 12,
+      "lifespan": 50,
+      "has_reentry": true,
+      "num_witnesses": 250,
+      "glued_with_count": 267
+    },
+    {
+      "id": "journey_299",
+      "signature": "creating_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 50,
+      "has_reentry": true,
+      "num_witnesses": 250,
+      "glued_with_count": 267
+    },
+    {
+      "id": "journey_301",
+      "signature": "help_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 50,
+      "has_reentry": true,
+      "num_witnesses": 236,
+      "glued_with_count": 267
+    },
+    {
+      "id": "journey_306",
+      "signature": "person_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 50,
+      "has_reentry": true,
+      "num_witnesses": 218,
+      "glued_with_count": 273
+    },
+    {
+      "id": "journey_317",
+      "signature": "help_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 50,
+      "has_reentry": true,
+      "num_witnesses": 238,
+      "glued_with_count": 265
+    },
+    {
+      "id": "journey_322",
+      "signature": "stars_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 50,
+      "has_reentry": true,
+      "num_witnesses": 247,
+      "glued_with_count": 271
+    },
+    {
+      "id": "journey_334",
+      "signature": "systems_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 50,
+      "has_reentry": true,
+      "num_witnesses": 248,
+      "glued_with_count": 266
+    },
+    {
+      "id": "journey_336",
+      "signature": "beside_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 50,
+      "has_reentry": true,
+      "num_witnesses": 240,
+      "glued_with_count": 265
+    },
+    {
+      "id": "journey_332",
+      "signature": "scene_beep_story",
+      "birth_tau": 12,
+      "lifespan": 49,
+      "has_reentry": true,
+      "num_witnesses": 252,
+      "glued_with_count": 273
+    },
+    {
+      "id": "journey_315",
+      "signature": "help_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 48,
+      "has_reentry": true,
+      "num_witnesses": 244,
+      "glued_with_count": 272
+    },
+    {
+      "id": "journey_331",
+      "signature": "story_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 48,
+      "has_reentry": true,
+      "num_witnesses": 252,
+      "glued_with_count": 266
+    },
+    {
+      "id": "journey_343",
+      "signature": "match_night_year",
+      "birth_tau": 13,
+      "lifespan": 48,
+      "has_reentry": true,
+      "num_witnesses": 236,
+      "glued_with_count": 265
+    },
+    {
+      "id": "journey_345",
+      "signature": "feel_night_year",
+      "birth_tau": 13,
+      "lifespan": 48,
+      "has_reentry": true,
+      "num_witnesses": 233,
+      "glued_with_count": 266
+    },
+    {
+      "id": "journey_347",
+      "signature": "under_night_year",
+      "birth_tau": 13,
+      "lifespan": 48,
+      "has_reentry": true,
+      "num_witnesses": 235,
+      "glued_with_count": 265
+    },
+    {
+      "id": "journey_348",
+      "signature": "under_night_year",
+      "birth_tau": 13,
+      "lifespan": 48,
+      "has_reentry": true,
+      "num_witnesses": 238,
+      "glued_with_count": 265
+    },
+    {
+      "id": "journey_351",
+      "signature": "year_night_stars",
+      "birth_tau": 13,
+      "lifespan": 48,
+      "has_reentry": true,
+      "num_witnesses": 231,
+      "glued_with_count": 263
+    },
+    {
+      "id": "journey_354",
+      "signature": "especially_year_under",
+      "birth_tau": 13,
+      "lifespan": 48,
+      "has_reentry": true,
+      "num_witnesses": 227,
+      "glued_with_count": 264
+    },
+    {
+      "id": "journey_357",
+      "signature": "mutual_under_night",
+      "birth_tau": 13,
+      "lifespan": 48,
+      "has_reentry": true,
+      "num_witnesses": 235,
+      "glued_with_count": 265
+    },
+    {
+      "id": "journey_361",
+      "signature": "lead_night_year",
+      "birth_tau": 13,
+      "lifespan": 48,
+      "has_reentry": true,
+      "num_witnesses": 236,
+      "glued_with_count": 266
+    },
+    {
+      "id": "journey_362",
+      "signature": "intuition_night_eyes",
+      "birth_tau": 13,
+      "lifespan": 48,
+      "has_reentry": true,
+      "num_witnesses": 249,
+      "glued_with_count": 265
+    },
+    {
+      "id": "journey_367",
+      "signature": "resilience_night_stars",
+      "birth_tau": 13,
+      "lifespan": 48,
+      "has_reentry": true,
+      "num_witnesses": 234,
+      "glued_with_count": 263
+    },
+    {
+      "id": "journey_368",
+      "signature": "year_night_stars",
+      "birth_tau": 13,
+      "lifespan": 48,
+      "has_reentry": true,
+      "num_witnesses": 228,
+      "glued_with_count": 271
+    },
+    {
+      "id": "journey_369",
+      "signature": "seen_night_under",
+      "birth_tau": 13,
+      "lifespan": 48,
+      "has_reentry": true,
+      "num_witnesses": 243,
+      "glued_with_count": 263
+    },
+    {
+      "id": "journey_375",
+      "signature": "honest_night_stars",
+      "birth_tau": 13,
+      "lifespan": 48,
+      "has_reentry": true,
+      "num_witnesses": 242,
+      "glued_with_count": 263
+    },
+    {
+      "id": "journey_377",
+      "signature": "maintain_night_year",
+      "birth_tau": 13,
+      "lifespan": 48,
+      "has_reentry": true,
+      "num_witnesses": 229,
+      "glued_with_count": 264
+    },
+    {
+      "id": "journey_312",
+      "signature": "scene_beep_story",
+      "birth_tau": 12,
+      "lifespan": 47,
+      "has_reentry": true,
+      "num_witnesses": 228,
+      "glued_with_count": 267
+    },
+    {
+      "id": "journey_289",
+      "signature": "across_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 46,
+      "has_reentry": true,
+      "num_witnesses": 241,
+      "glued_with_count": 271
+    },
+    {
+      "id": "journey_393",
+      "signature": "related_data_private",
+      "birth_tau": 14,
+      "lifespan": 46,
+      "has_reentry": true,
+      "num_witnesses": 212,
+      "glued_with_count": 267
+    },
+    {
+      "id": "journey_399",
+      "signature": "explains_data_market",
+      "birth_tau": 14,
+      "lifespan": 46,
+      "has_reentry": true,
+      "num_witnesses": 218,
+      "glued_with_count": 263
+    },
+    {
+      "id": "journey_401",
+      "signature": "category_data_market",
+      "birth_tau": 14,
+      "lifespan": 46,
+      "has_reentry": true,
+      "num_witnesses": 222,
+      "glued_with_count": 259
+    },
+    {
+      "id": "journey_309",
+      "signature": "beyond_scene_future",
+      "birth_tau": 12,
+      "lifespan": 45,
+      "has_reentry": true,
+      "num_witnesses": 234,
+      "glued_with_count": 270
+    },
+    {
+      "id": "journey_360",
+      "signature": "focused_night_under",
+      "birth_tau": 13,
+      "lifespan": 45,
+      "has_reentry": true,
+      "num_witnesses": 230,
+      "glued_with_count": 264
+    },
+    {
+      "id": "journey_288",
+      "signature": "lies_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 44,
+      "has_reentry": true,
+      "num_witnesses": 237,
+      "glued_with_count": 265
+    },
+    {
+      "id": "journey_319",
+      "signature": "beep_scene_stars",
+      "birth_tau": 12,
+      "lifespan": 44,
+      "has_reentry": true,
+      "num_witnesses": 233,
+      "glued_with_count": 270
+    },
+    {
+      "id": "journey_294",
+      "signature": "books_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 43,
+      "has_reentry": true,
+      "num_witnesses": 238,
+      "glued_with_count": 267
+    },
+    {
+      "id": "journey_297",
+      "signature": "stars_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 43,
+      "has_reentry": true,
+      "num_witnesses": 239,
+      "glued_with_count": 267
+    },
+    {
+      "id": "journey_308",
+      "signature": "stars_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 43,
+      "has_reentry": true,
+      "num_witnesses": 227,
+      "glued_with_count": 265
+    },
+    {
+      "id": "journey_321",
+      "signature": "find_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 43,
+      "has_reentry": true,
+      "num_witnesses": 233,
+      "glued_with_count": 265
+    },
+    {
+      "id": "journey_333",
+      "signature": "great_scene_stars",
+      "birth_tau": 12,
+      "lifespan": 43,
+      "has_reentry": true,
+      "num_witnesses": 233,
+      "glued_with_count": 272
+    },
+    {
+      "id": "journey_230",
+      "signature": "eyes_data_quality",
+      "birth_tau": 2,
+      "lifespan": 42,
+      "has_reentry": true,
+      "num_witnesses": 240,
+      "glued_with_count": 422
+    },
+    {
+      "id": "journey_291",
+      "signature": "every_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 42,
+      "has_reentry": true,
+      "num_witnesses": 224,
+      "glued_with_count": 266
+    },
+    {
+      "id": "journey_311",
+      "signature": "sense_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 42,
+      "has_reentry": true,
+      "num_witnesses": 231,
+      "glued_with_count": 267
+    },
+    {
+      "id": "journey_410",
+      "signature": "verse_data_chorus",
+      "birth_tau": 16,
+      "lifespan": 42,
+      "has_reentry": true,
+      "num_witnesses": 204,
+      "glued_with_count": 258
+    },
+    {
+      "id": "journey_316",
+      "signature": "fixes_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 41,
+      "has_reentry": true,
+      "num_witnesses": 223,
+      "glued_with_count": 265
+    },
+    {
+      "id": "journey_324",
+      "signature": "save_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 41,
+      "has_reentry": true,
+      "num_witnesses": 236,
+      "glued_with_count": 265
+    },
+    {
+      "id": "journey_325",
+      "signature": "introduce_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 41,
+      "has_reentry": true,
+      "num_witnesses": 227,
+      "glued_with_count": 267
+    },
+    {
+      "id": "journey_318",
+      "signature": "beep_scene_stars",
+      "birth_tau": 12,
+      "lifespan": 40,
+      "has_reentry": true,
+      "num_witnesses": 236,
+      "glued_with_count": 267
+    },
+    {
+      "id": "journey_379",
+      "signature": "growth_night_year",
+      "birth_tau": 13,
+      "lifespan": 40,
+      "has_reentry": true,
+      "num_witnesses": 224,
+      "glued_with_count": 265
+    },
+    {
+      "id": "journey_329",
+      "signature": "specific_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 38,
+      "has_reentry": true,
+      "num_witnesses": 225,
+      "glued_with_count": 268
+    },
+    {
+      "id": "journey_420",
+      "signature": "entity_data_film",
+      "birth_tau": 18,
+      "lifespan": 38,
+      "has_reentry": true,
+      "num_witnesses": 195,
+      "glued_with_count": 263
+    },
+    {
+      "id": "journey_423",
+      "signature": "governance_data_analytics",
+      "birth_tau": 18,
+      "lifespan": 38,
+      "has_reentry": true,
+      "num_witnesses": 189,
+      "glued_with_count": 265
+    },
+    {
+      "id": "journey_314",
+      "signature": "beep_scene_stars",
+      "birth_tau": 12,
+      "lifespan": 37,
+      "has_reentry": true,
+      "num_witnesses": 226,
+      "glued_with_count": 268
+    },
+    {
+      "id": "journey_323",
+      "signature": "forms_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 37,
+      "has_reentry": true,
+      "num_witnesses": 229,
+      "glued_with_count": 268
+    },
+    {
+      "id": "journey_17",
+      "signature": "success_love_never",
+      "birth_tau": 0,
+      "lifespan": 36,
+      "has_reentry": true,
+      "num_witnesses": 270,
+      "glued_with_count": 439
+    },
+    {
+      "id": "journey_20",
+      "signature": "sound_voice_love",
+      "birth_tau": 0,
+      "lifespan": 36,
+      "has_reentry": true,
+      "num_witnesses": 258,
+      "glued_with_count": 473
+    },
+    {
+      "id": "journey_22",
+      "signature": "power_love_work",
+      "birth_tau": 0,
+      "lifespan": 36,
+      "has_reentry": true,
+      "num_witnesses": 261,
+      "glued_with_count": 428
+    },
+    {
+      "id": "journey_25",
+      "signature": "success_love_never",
+      "birth_tau": 0,
+      "lifespan": 36,
+      "has_reentry": true,
+      "num_witnesses": 269,
+      "glued_with_count": 438
+    },
+    {
+      "id": "journey_45",
+      "signature": "later_love_never",
+      "birth_tau": 0,
+      "lifespan": 36,
+      "has_reentry": true,
+      "num_witnesses": 259,
+      "glued_with_count": 452
+    },
+    {
+      "id": "journey_50",
+      "signature": "worked_love_bring",
+      "birth_tau": 0,
+      "lifespan": 36,
+      "has_reentry": true,
+      "num_witnesses": 273,
+      "glued_with_count": 434
+    },
+    {
+      "id": "journey_51",
+      "signature": "number_love_success",
+      "birth_tau": 0,
+      "lifespan": 36,
+      "has_reentry": true,
+      "num_witnesses": 257,
+      "glued_with_count": 475
+    },
+    {
+      "id": "journey_52",
+      "signature": "known_love_never",
+      "birth_tau": 0,
+      "lifespan": 36,
+      "has_reentry": true,
+      "num_witnesses": 250,
+      "glued_with_count": 488
+    },
+    {
+      "id": "journey_55",
+      "signature": "city_love_music",
+      "birth_tau": 0,
+      "lifespan": 36,
+      "has_reentry": true,
+      "num_witnesses": 252,
+      "glued_with_count": 477
+    },
+    {
+      "id": "journey_60",
+      "signature": "shows_love_bring",
+      "birth_tau": 0,
+      "lifespan": 36,
+      "has_reentry": true,
+      "num_witnesses": 259,
+      "glued_with_count": 467
+    },
+    {
+      "id": "journey_66",
+      "signature": "writing_love_work",
+      "birth_tau": 0,
+      "lifespan": 36,
+      "has_reentry": true,
+      "num_witnesses": 265,
+      "glued_with_count": 439
+    },
+    {
+      "id": "journey_123",
+      "signature": "truly_love_never",
+      "birth_tau": 0,
+      "lifespan": 36,
+      "has_reentry": true,
+      "num_witnesses": 262,
+      "glued_with_count": 446
+    },
+    {
+      "id": "journey_126",
+      "signature": "live_love_success",
+      "birth_tau": 0,
+      "lifespan": 36,
+      "has_reentry": true,
+      "num_witnesses": 281,
+      "glued_with_count": 433
+    },
+    {
+      "id": "journey_131",
+      "signature": "fast_love_never",
+      "birth_tau": 0,
+      "lifespan": 36,
+      "has_reentry": true,
+      "num_witnesses": 269,
+      "glued_with_count": 433
+    },
+    {
+      "id": "journey_141",
+      "signature": "easy_love_never",
+      "birth_tau": 0,
+      "lifespan": 36,
+      "has_reentry": true,
+      "num_witnesses": 262,
+      "glued_with_count": 433
+    },
+    {
+      "id": "journey_157",
+      "signature": "best_love_never",
+      "birth_tau": 0,
+      "lifespan": 36,
+      "has_reentry": true,
+      "num_witnesses": 256,
+      "glued_with_count": 490
+    },
+    {
+      "id": "journey_428",
+      "signature": "required_data_monitoring",
+      "birth_tau": 19,
+      "lifespan": 36,
+      "has_reentry": true,
+      "num_witnesses": 186,
+      "glued_with_count": 259
+    },
+    {
+      "id": "journey_6",
+      "signature": "place_love_work",
+      "birth_tau": 0,
+      "lifespan": 35,
+      "has_reentry": true,
+      "num_witnesses": 258,
+      "glued_with_count": 480
+    },
+    {
+      "id": "journey_58",
+      "signature": "running_love_music",
+      "birth_tau": 0,
+      "lifespan": 35,
+      "has_reentry": true,
+      "num_witnesses": 258,
+      "glued_with_count": 472
+    },
+    {
+      "id": "journey_100",
+      "signature": "music_love_work",
+      "birth_tau": 0,
+      "lifespan": 35,
+      "has_reentry": true,
+      "num_witnesses": 257,
+      "glued_with_count": 486
+    },
+    {
+      "id": "journey_112",
+      "signature": "full_love_success",
+      "birth_tau": 0,
+      "lifespan": 35,
+      "has_reentry": true,
+      "num_witnesses": 255,
+      "glued_with_count": 503
+    },
+    {
+      "id": "journey_124",
+      "signature": "kind_love_bring",
+      "birth_tau": 0,
+      "lifespan": 35,
+      "has_reentry": true,
+      "num_witnesses": 254,
+      "glued_with_count": 494
+    },
+    {
+      "id": "journey_128",
+      "signature": "verse_chorus_love",
+      "birth_tau": 0,
+      "lifespan": 35,
+      "has_reentry": true,
+      "num_witnesses": 250,
+      "glued_with_count": 495
+    },
+    {
+      "id": "journey_129",
+      "signature": "eyes_love_voice",
+      "birth_tau": 0,
+      "lifespan": 35,
+      "has_reentry": true,
+      "num_witnesses": 263,
+      "glued_with_count": 434
+    },
+    {
+      "id": "journey_132",
+      "signature": "chorus_love_verse",
+      "birth_tau": 0,
+      "lifespan": 35,
+      "has_reentry": true,
+      "num_witnesses": 251,
+      "glued_with_count": 493
+    },
+    {
+      "id": "journey_142",
+      "signature": "chorus_love_verse",
+      "birth_tau": 0,
+      "lifespan": 35,
+      "has_reentry": true,
+      "num_witnesses": 256,
+      "glued_with_count": 490
+    },
+    {
+      "id": "journey_287",
+      "signature": "ensure_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 35,
+      "has_reentry": true,
+      "num_witnesses": 215,
+      "glued_with_count": 274
+    },
+    {
+      "id": "journey_305",
+      "signature": "forces_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 35,
+      "has_reentry": true,
+      "num_witnesses": 212,
+      "glued_with_count": 273
+    },
+    {
+      "id": "journey_328",
+      "signature": "story_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 35,
+      "has_reentry": true,
+      "num_witnesses": 227,
+      "glued_with_count": 268
+    },
+    {
+      "id": "journey_335",
+      "signature": "scene_beep_story",
+      "birth_tau": 12,
+      "lifespan": 35,
+      "has_reentry": true,
+      "num_witnesses": 221,
+      "glued_with_count": 267
+    },
+    {
+      "id": "journey_380",
+      "signature": "individual_night_year",
+      "birth_tau": 13,
+      "lifespan": 35,
+      "has_reentry": true,
+      "num_witnesses": 198,
+      "glued_with_count": 268
+    },
+    {
+      "id": "journey_408",
+      "signature": "alright_data_verse",
+      "birth_tau": 16,
+      "lifespan": 35,
+      "has_reentry": true,
+      "num_witnesses": 205,
+      "glued_with_count": 263
+    },
+    {
+      "id": "journey_136",
+      "signature": "verse_chorus_love",
+      "birth_tau": 0,
+      "lifespan": 34,
+      "has_reentry": true,
+      "num_witnesses": 249,
+      "glued_with_count": 488
+    },
+    {
+      "id": "journey_302",
+      "signature": "scene_beep_story",
+      "birth_tau": 12,
+      "lifespan": 34,
+      "has_reentry": true,
+      "num_witnesses": 226,
+      "glued_with_count": 268
+    },
+    {
+      "id": "journey_307",
+      "signature": "small_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 33,
+      "has_reentry": true,
+      "num_witnesses": 187,
+      "glued_with_count": 226
+    },
+    {
+      "id": "journey_358",
+      "signature": "energy_night_power",
+      "birth_tau": 13,
+      "lifespan": 33,
+      "has_reentry": true,
+      "num_witnesses": 215,
+      "glued_with_count": 270
+    },
+    {
+      "id": "journey_390",
+      "signature": "perspective_data_market",
+      "birth_tau": 14,
+      "lifespan": 33,
+      "has_reentry": true,
+      "num_witnesses": 206,
+      "glued_with_count": 266
+    },
+    {
+      "id": "journey_327",
+      "signature": "explore_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 32,
+      "has_reentry": true,
+      "num_witnesses": 210,
+      "glued_with_count": 270
+    },
+    {
+      "id": "journey_394",
+      "signature": "detail_data_private",
+      "birth_tau": 14,
+      "lifespan": 32,
+      "has_reentry": true,
+      "num_witnesses": 207,
+      "glued_with_count": 270
+    },
+    {
+      "id": "journey_421",
+      "signature": "financial_data_legal",
+      "birth_tau": 18,
+      "lifespan": 32,
+      "has_reentry": true,
+      "num_witnesses": 174,
+      "glued_with_count": 254
+    },
+    {
+      "id": "journey_432",
+      "signature": "became_data_during",
+      "birth_tau": 20,
+      "lifespan": 32,
+      "has_reentry": true,
+      "num_witnesses": 171,
+      "glued_with_count": 265
+    },
+    {
+      "id": "journey_310",
+      "signature": "morning_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 31,
+      "has_reentry": true,
+      "num_witnesses": 216,
+      "glued_with_count": 273
+    },
+    {
+      "id": "journey_326",
+      "signature": "wise_scene_stars",
+      "birth_tau": 12,
+      "lifespan": 31,
+      "has_reentry": true,
+      "num_witnesses": 212,
+      "glued_with_count": 274
+    },
+    {
+      "id": "journey_353",
+      "signature": "stay_night_under",
+      "birth_tau": 13,
+      "lifespan": 31,
+      "has_reentry": true,
+      "num_witnesses": 206,
+      "glued_with_count": 274
+    },
+    {
+      "id": "journey_43",
+      "signature": "success_love_never",
+      "birth_tau": 0,
+      "lifespan": 30,
+      "has_reentry": true,
+      "num_witnesses": 219,
+      "glued_with_count": 465
+    },
+    {
+      "id": "journey_290",
+      "signature": "lands_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 30,
+      "has_reentry": true,
+      "num_witnesses": 205,
+      "glued_with_count": 275
+    },
+    {
+      "id": "journey_292",
+      "signature": "success_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 30,
+      "has_reentry": true,
+      "num_witnesses": 210,
+      "glued_with_count": 271
+    },
+    {
+      "id": "journey_293",
+      "signature": "remember_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 30,
+      "has_reentry": true,
+      "num_witnesses": 214,
+      "glued_with_count": 274
+    },
+    {
+      "id": "journey_300",
+      "signature": "large_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 30,
+      "has_reentry": true,
+      "num_witnesses": 212,
+      "glued_with_count": 274
+    },
+    {
+      "id": "journey_337",
+      "signature": "beep_scene_stars",
+      "birth_tau": 12,
+      "lifespan": 30,
+      "has_reentry": true,
+      "num_witnesses": 203,
+      "glued_with_count": 275
+    },
+    {
+      "id": "journey_363",
+      "signature": "remember_night_under",
+      "birth_tau": 13,
+      "lifespan": 30,
+      "has_reentry": true,
+      "num_witnesses": 206,
+      "glued_with_count": 267
+    },
+    {
+      "id": "journey_389",
+      "signature": "significant_data_market",
+      "birth_tau": 14,
+      "lifespan": 30,
+      "has_reentry": true,
+      "num_witnesses": 197,
+      "glued_with_count": 271
+    },
+    {
+      "id": "journey_429",
+      "signature": "mathematical_data_governance",
+      "birth_tau": 19,
+      "lifespan": 30,
+      "has_reentry": true,
+      "num_witnesses": 166,
+      "glued_with_count": 266
+    },
+    {
+      "id": "journey_449",
+      "signature": "continues_data_information",
+      "birth_tau": 22,
+      "lifespan": 30,
+      "has_reentry": true,
+      "num_witnesses": 153,
+      "glued_with_count": 257
+    },
+    {
+      "id": "journey_18",
+      "signature": "hard_love_never",
+      "birth_tau": 0,
+      "lifespan": 29,
+      "has_reentry": true,
+      "num_witnesses": 233,
+      "glued_with_count": 442
+    },
+    {
+      "id": "journey_350",
+      "signature": "detailed_full_under",
+      "birth_tau": 13,
+      "lifespan": 29,
+      "has_reentry": true,
+      "num_witnesses": 172,
+      "glued_with_count": 227
+    },
+    {
+      "id": "journey_356",
+      "signature": "significant_year_night",
+      "birth_tau": 13,
+      "lifespan": 29,
+      "has_reentry": true,
+      "num_witnesses": 198,
+      "glued_with_count": 272
+    },
+    {
+      "id": "journey_364",
+      "signature": "general_under_full",
+      "birth_tau": 13,
+      "lifespan": 29,
+      "has_reentry": true,
+      "num_witnesses": 198,
+      "glued_with_count": 268
+    },
+    {
+      "id": "journey_370",
+      "signature": "detailed_full_under",
+      "birth_tau": 13,
+      "lifespan": 29,
+      "has_reentry": true,
+      "num_witnesses": 170,
+      "glued_with_count": 227
+    },
+    {
+      "id": "journey_313",
+      "signature": "inside_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 28,
+      "has_reentry": true,
+      "num_witnesses": 204,
+      "glued_with_count": 269
+    },
+    {
+      "id": "journey_366",
+      "signature": "year_night_stars",
+      "birth_tau": 13,
+      "lifespan": 28,
+      "has_reentry": true,
+      "num_witnesses": 194,
+      "glued_with_count": 270
+    },
+    {
+      "id": "journey_422",
+      "signature": "beep_data_sounds",
+      "birth_tau": 18,
+      "lifespan": 28,
+      "has_reentry": true,
+      "num_witnesses": 179,
+      "glued_with_count": 265
+    },
+    {
+      "id": "journey_36",
+      "signature": "making_love_bring",
+      "birth_tau": 0,
+      "lifespan": 27,
+      "has_reentry": true,
+      "num_witnesses": 216,
+      "glued_with_count": 445
+    },
+    {
+      "id": "journey_303",
+      "signature": "title_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 27,
+      "has_reentry": true,
+      "num_witnesses": 181,
+      "glued_with_count": 250
+    },
+    {
+      "id": "journey_341",
+      "signature": "under_night_year",
+      "birth_tau": 13,
+      "lifespan": 27,
+      "has_reentry": true,
+      "num_witnesses": 198,
+      "glued_with_count": 272
+    },
+    {
+      "id": "journey_349",
+      "signature": "expected_year_night",
+      "birth_tau": 13,
+      "lifespan": 27,
+      "has_reentry": true,
+      "num_witnesses": 198,
+      "glued_with_count": 269
+    },
+    {
+      "id": "journey_355",
+      "signature": "meet_night_year",
+      "birth_tau": 13,
+      "lifespan": 27,
+      "has_reentry": true,
+      "num_witnesses": 187,
+      "glued_with_count": 264
+    },
+    {
+      "id": "journey_411",
+      "signature": "outside_data_real",
+      "birth_tau": 16,
+      "lifespan": 27,
+      "has_reentry": true,
+      "num_witnesses": 194,
+      "glued_with_count": 259
+    },
+    {
+      "id": "journey_61",
+      "signature": "events_love_music",
+      "birth_tau": 0,
+      "lifespan": 26,
+      "has_reentry": true,
+      "num_witnesses": 200,
+      "glued_with_count": 439
+    },
+    {
+      "id": "journey_359",
+      "signature": "time_night_year",
+      "birth_tau": 13,
+      "lifespan": 26,
+      "has_reentry": true,
+      "num_witnesses": 169,
+      "glued_with_count": 226
+    },
+    {
+      "id": "journey_376",
+      "signature": "source_under_stars",
+      "birth_tau": 13,
+      "lifespan": 26,
+      "has_reentry": true,
+      "num_witnesses": 172,
+      "glued_with_count": 226
+    },
+    {
+      "id": "journey_396",
+      "signature": "database_data_market",
+      "birth_tau": 14,
+      "lifespan": 26,
+      "has_reentry": true,
+      "num_witnesses": 190,
+      "glued_with_count": 270
+    },
+    {
+      "id": "journey_456",
+      "signature": "making_data_time",
+      "birth_tau": 24,
+      "lifespan": 26,
+      "has_reentry": true,
+      "num_witnesses": 120,
+      "glued_with_count": 257
+    },
+    {
+      "id": "journey_371",
+      "signature": "year_night_stars",
+      "birth_tau": 13,
+      "lifespan": 25,
+      "has_reentry": true,
+      "num_witnesses": 190,
+      "glued_with_count": 272
+    },
+    {
+      "id": "journey_373",
+      "signature": "year_night_stars",
+      "birth_tau": 13,
+      "lifespan": 25,
+      "has_reentry": true,
+      "num_witnesses": 188,
+      "glued_with_count": 270
+    },
+    {
+      "id": "journey_374",
+      "signature": "themselves_night_year",
+      "birth_tau": 13,
+      "lifespan": 25,
+      "has_reentry": true,
+      "num_witnesses": 191,
+      "glued_with_count": 275
+    },
+    {
+      "id": "journey_378",
+      "signature": "others_night_under",
+      "birth_tau": 13,
+      "lifespan": 25,
+      "has_reentry": true,
+      "num_witnesses": 194,
+      "glued_with_count": 266
+    },
+    {
+      "id": "journey_381",
+      "signature": "lived_year_night",
+      "birth_tau": 13,
+      "lifespan": 25,
+      "has_reentry": true,
+      "num_witnesses": 197,
+      "glued_with_count": 270
+    },
+    {
+      "id": "journey_382",
+      "signature": "time_night_year",
+      "birth_tau": 13,
+      "lifespan": 25,
+      "has_reentry": true,
+      "num_witnesses": 190,
+      "glued_with_count": 272
+    },
+    {
+      "id": "journey_383",
+      "signature": "isaac_night_under",
+      "birth_tau": 13,
+      "lifespan": 25,
+      "has_reentry": true,
+      "num_witnesses": 191,
+      "glued_with_count": 266
+    },
+    {
+      "id": "journey_387",
+      "signature": "number_data_market",
+      "birth_tau": 14,
+      "lifespan": 25,
+      "has_reentry": true,
+      "num_witnesses": 189,
+      "glued_with_count": 262
+    },
+    {
+      "id": "journey_451",
+      "signature": "matters_data_information",
+      "birth_tau": 23,
+      "lifespan": 25,
+      "has_reentry": true,
+      "num_witnesses": 145,
+      "glued_with_count": 257
+    },
+    {
+      "id": "journey_388",
+      "signature": "potential_data_market",
+      "birth_tau": 14,
+      "lifespan": 24,
+      "has_reentry": true,
+      "num_witnesses": 173,
+      "glued_with_count": 266
+    },
+    {
+      "id": "journey_398",
+      "signature": "above_data_private",
+      "birth_tau": 14,
+      "lifespan": 24,
+      "has_reentry": true,
+      "num_witnesses": 177,
+      "glued_with_count": 271
+    },
+    {
+      "id": "journey_298",
+      "signature": "happy_scene_stars",
+      "birth_tau": 12,
+      "lifespan": 23,
+      "has_reentry": true,
+      "num_witnesses": 153,
+      "glued_with_count": 203
+    },
+    {
+      "id": "journey_391",
+      "signature": "direct_data_private",
+      "birth_tau": 14,
+      "lifespan": 23,
+      "has_reentry": true,
+      "num_witnesses": 148,
+      "glued_with_count": 211
+    },
+    {
+      "id": "journey_400",
+      "signature": "question_data_market",
+      "birth_tau": 14,
+      "lifespan": 23,
+      "has_reentry": true,
+      "num_witnesses": 149,
+      "glued_with_count": 208
+    },
+    {
+      "id": "journey_405",
+      "signature": "however_data_governance",
+      "birth_tau": 15,
+      "lifespan": 23,
+      "has_reentry": true,
+      "num_witnesses": 176,
+      "glued_with_count": 269
+    },
+    {
+      "id": "journey_320",
+      "signature": "must_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 22,
+      "has_reentry": true,
+      "num_witnesses": 151,
+      "glued_with_count": 216
+    },
+    {
+      "id": "journey_397",
+      "signature": "processing_data_management",
+      "birth_tau": 14,
+      "lifespan": 22,
+      "has_reentry": true,
+      "num_witnesses": 141,
+      "glued_with_count": 223
+    },
+    {
+      "id": "journey_404",
+      "signature": "lseg_data_governance",
+      "birth_tau": 15,
+      "lifespan": 22,
+      "has_reentry": true,
+      "num_witnesses": 168,
+      "glued_with_count": 261
+    },
+    {
+      "id": "journey_406",
+      "signature": "moment_data_process",
+      "birth_tau": 15,
+      "lifespan": 22,
+      "has_reentry": true,
+      "num_witnesses": 180,
+      "glued_with_count": 262
+    },
+    {
+      "id": "journey_407",
+      "signature": "london_data_information",
+      "birth_tau": 16,
+      "lifespan": 22,
+      "has_reentry": true,
+      "num_witnesses": 168,
+      "glued_with_count": 265
+    },
+    {
+      "id": "journey_468",
+      "signature": "perfectly_data_management",
+      "birth_tau": 26,
+      "lifespan": 22,
+      "has_reentry": true,
+      "num_witnesses": 100,
+      "glued_with_count": 251
+    },
+    {
+      "id": "journey_53",
+      "signature": "opening_love_success",
+      "birth_tau": 0,
+      "lifespan": 21,
+      "has_reentry": true,
+      "num_witnesses": 183,
+      "glued_with_count": 419
+    },
+    {
+      "id": "journey_83",
+      "signature": "music_love_work",
+      "birth_tau": 0,
+      "lifespan": 21,
+      "has_reentry": true,
+      "num_witnesses": 181,
+      "glued_with_count": 419
+    },
+    {
+      "id": "journey_365",
+      "signature": "born_night_year",
+      "birth_tau": 13,
+      "lifespan": 21,
+      "has_reentry": true,
+      "num_witnesses": 164,
+      "glued_with_count": 238
+    },
+    {
+      "id": "journey_414",
+      "signature": "something_anything_data",
+      "birth_tau": 17,
+      "lifespan": 21,
+      "has_reentry": true,
+      "num_witnesses": 166,
+      "glued_with_count": 267
+    },
+    {
+      "id": "journey_417",
+      "signature": "cassie_isaac_data",
+      "birth_tau": 17,
+      "lifespan": 21,
+      "has_reentry": true,
+      "num_witnesses": 169,
+      "glued_with_count": 267
+    },
+    {
+      "id": "journey_424",
+      "signature": "woman_data_child",
+      "birth_tau": 18,
+      "lifespan": 21,
+      "has_reentry": true,
+      "num_witnesses": 159,
+      "glued_with_count": 266
+    },
+    {
+      "id": "journey_344",
+      "signature": "once_year_under",
+      "birth_tau": 13,
+      "lifespan": 20,
+      "has_reentry": true,
+      "num_witnesses": 142,
+      "glued_with_count": 214
+    },
+    {
+      "id": "journey_415",
+      "signature": "among_data_sounds",
+      "birth_tau": 17,
+      "lifespan": 20,
+      "has_reentry": true,
+      "num_witnesses": 164,
+      "glued_with_count": 267
+    },
+    {
+      "id": "journey_471",
+      "signature": "microsoft_trade_data",
+      "birth_tau": 27,
+      "lifespan": 20,
+      "has_reentry": true,
+      "num_witnesses": 83,
+      "glued_with_count": 246
+    },
+    {
+      "id": "journey_304",
+      "signature": "ancient_scene_beep",
+      "birth_tau": 12,
+      "lifespan": 19,
+      "has_reentry": true,
+      "num_witnesses": 134,
+      "glued_with_count": 203
+    },
+    {
+      "id": "journey_372",
+      "signature": "relationships_night_year",
+      "birth_tau": 13,
+      "lifespan": 19,
+      "has_reentry": true,
+      "num_witnesses": 127,
+      "glued_with_count": 201
+    },
+    {
+      "id": "journey_163",
+      "signature": "related_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 107,
+      "glued_with_count": 201
+    },
+    {
+      "id": "journey_164",
+      "signature": "done_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 102,
+      "glued_with_count": 202
+    },
+    {
+      "id": "journey_166",
+      "signature": "management_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 101,
+      "glued_with_count": 207
+    },
+    {
+      "id": "journey_168",
+      "signature": "stand_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 104,
+      "glued_with_count": 206
+    },
+    {
+      "id": "journey_169",
+      "signature": "quality_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 105,
+      "glued_with_count": 205
+    },
+    {
+      "id": "journey_171",
+      "signature": "asset_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 96,
+      "glued_with_count": 205
+    },
+    {
+      "id": "journey_172",
+      "signature": "personal_data_quality",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 104,
+      "glued_with_count": 206
+    },
+    {
+      "id": "journey_173",
+      "signature": "ready_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 107,
+      "glued_with_count": 205
+    },
+    {
+      "id": "journey_174",
+      "signature": "compliance_data_management",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 112,
+      "glued_with_count": 205
+    },
+    {
+      "id": "journey_176",
+      "signature": "hands_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 105,
+      "glued_with_count": 205
+    },
+    {
+      "id": "journey_177",
+      "signature": "always_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 105,
+      "glued_with_count": 202
+    },
+    {
+      "id": "journey_178",
+      "signature": "development_data_quality",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 107,
+      "glued_with_count": 206
+    },
+    {
+      "id": "journey_179",
+      "signature": "quite_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 106,
+      "glued_with_count": 202
+    },
+    {
+      "id": "journey_180",
+      "signature": "relevant_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 113,
+      "glued_with_count": 198
+    },
+    {
+      "id": "journey_181",
+      "signature": "doctor_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 96,
+      "glued_with_count": 205
+    },
+    {
+      "id": "journey_182",
+      "signature": "ways_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 96,
+      "glued_with_count": 205
+    },
+    {
+      "id": "journey_183",
+      "signature": "defined_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 106,
+      "glued_with_count": 206
+    },
+    {
+      "id": "journey_186",
+      "signature": "finance_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 109,
+      "glued_with_count": 205
+    },
+    {
+      "id": "journey_187",
+      "signature": "faces_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 98,
+      "glued_with_count": 202
+    },
+    {
+      "id": "journey_188",
+      "signature": "property_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 85,
+      "glued_with_count": 207
+    },
+    {
+      "id": "journey_190",
+      "signature": "build_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 92,
+      "glued_with_count": 205
+    },
+    {
+      "id": "journey_192",
+      "signature": "tension_data_quality",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 93,
+      "glued_with_count": 206
+    },
+    {
+      "id": "journey_193",
+      "signature": "best_data_quality",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 113,
+      "glued_with_count": 206
+    },
+    {
+      "id": "journey_203",
+      "signature": "critical_data_quality",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 104,
+      "glued_with_count": 205
+    },
+    {
+      "id": "journey_204",
+      "signature": "tools_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 96,
+      "glued_with_count": 205
+    },
+    {
+      "id": "journey_205",
+      "signature": "feel_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 88,
+      "glued_with_count": 200
+    },
+    {
+      "id": "journey_206",
+      "signature": "practices_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 88,
+      "glued_with_count": 205
+    },
+    {
+      "id": "journey_207",
+      "signature": "state_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 101,
+      "glued_with_count": 205
+    },
+    {
+      "id": "journey_209",
+      "signature": "services_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 92,
+      "glued_with_count": 200
+    },
+    {
+      "id": "journey_210",
+      "signature": "mapping_data_quality",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 101,
+      "glued_with_count": 205
+    },
+    {
+      "id": "journey_211",
+      "signature": "wants_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 92,
+      "glued_with_count": 205
+    },
+    {
+      "id": "journey_212",
+      "signature": "company_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 85,
+      "glued_with_count": 203
+    },
+    {
+      "id": "journey_213",
+      "signature": "found_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 88,
+      "glued_with_count": 201
+    },
+    {
+      "id": "journey_214",
+      "signature": "capital_data_quality",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 104,
+      "glued_with_count": 207
+    },
+    {
+      "id": "journey_215",
+      "signature": "provided_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 111,
+      "glued_with_count": 205
+    },
+    {
+      "id": "journey_217",
+      "signature": "energy_data_quality",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 94,
+      "glued_with_count": 201
+    },
+    {
+      "id": "journey_218",
+      "signature": "records_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 97,
+      "glued_with_count": 207
+    },
+    {
+      "id": "journey_219",
+      "signature": "explore_data_information",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 88,
+      "glued_with_count": 201
+    },
+    {
+      "id": "journey_220",
+      "signature": "standard_data_quality",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 101,
+      "glued_with_count": 205
+    },
+    {
+      "id": "journey_221",
+      "signature": "across_data_quality",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 104,
+      "glued_with_count": 205
+    },
+    {
+      "id": "journey_222",
+      "signature": "integrity_data_quality",
+      "birth_tau": 2,
+      "lifespan": 18,
+      "has_reentry": true,
+      "num_witnesses": 96,
+      "glued_with_count": 205
+    }
+  ]
+}

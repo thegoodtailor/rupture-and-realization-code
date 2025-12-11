@@ -1,0 +1,1662 @@
+{
+  "role": "USER",
+  "period": "2022-12 to 2025-12",
+  "num_journeys": 587,
+  "num_components": 9,
+  "presence_ratio": 0.65587734241908,
+  "num_edges": 74122,
+  "hub_tokens": [
+    "music",
+    "step",
+    "science",
+    "draw",
+    "women",
+    "rupture",
+    "important",
+    "world",
+    "path",
+    "critical",
+    "book",
+    "model",
+    "team",
+    "meaning",
+    "lead",
+    "site",
+    "data",
+    "going",
+    "work",
+    "development",
+    "number",
+    "governance",
+    "knowledge",
+    "based",
+    "time",
+    "experience",
+    "rewrite",
+    "drift",
+    "architecture",
+    "practices",
+    "records",
+    "different",
+    "dependent",
+    "packages",
+    "quality",
+    "value",
+    "business",
+    "paragraph",
+    "semantic",
+    "give",
+    "transport",
+    "library",
+    "information",
+    "field",
+    "technology",
+    "theory",
+    "motif",
+    "journey",
+    "management",
+    "analytics"
+  ],
+  "journeys": [
+    {
+      "id": "journey_381",
+      "signature": "types_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 42,
+      "has_reentry": true,
+      "glued_with_count": 374
+    },
+    {
+      "id": "journey_390",
+      "signature": "theoretical_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 42,
+      "has_reentry": true,
+      "glued_with_count": 375
+    },
+    {
+      "id": "journey_313",
+      "signature": "identify_data_management",
+      "birth_tau": 14,
+      "lifespan": 30,
+      "has_reentry": true,
+      "glued_with_count": 377
+    },
+    {
+      "id": "journey_455",
+      "signature": "explore_data_information",
+      "birth_tau": 22,
+      "lifespan": 30,
+      "has_reentry": true,
+      "glued_with_count": 319
+    },
+    {
+      "id": "journey_296",
+      "signature": "time_data_management",
+      "birth_tau": 14,
+      "lifespan": 29,
+      "has_reentry": true,
+      "glued_with_count": 380
+    },
+    {
+      "id": "journey_375",
+      "signature": "cloud_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 29,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_295",
+      "signature": "analytics_data_management",
+      "birth_tau": 14,
+      "lifespan": 27,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_293",
+      "signature": "understanding_data_management",
+      "birth_tau": 14,
+      "lifespan": 26,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_366",
+      "signature": "speak_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 26,
+      "has_reentry": true,
+      "glued_with_count": 376
+    },
+    {
+      "id": "journey_396",
+      "signature": "science_data_books",
+      "birth_tau": 16,
+      "lifespan": 26,
+      "has_reentry": true,
+      "glued_with_count": 377
+    },
+    {
+      "id": "journey_397",
+      "signature": "science_data_books",
+      "birth_tau": 16,
+      "lifespan": 26,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_304",
+      "signature": "store_data_management",
+      "birth_tau": 14,
+      "lifespan": 25,
+      "has_reentry": true,
+      "glued_with_count": 381
+    },
+    {
+      "id": "journey_305",
+      "signature": "useful_data_management",
+      "birth_tau": 14,
+      "lifespan": 25,
+      "has_reentry": true,
+      "glued_with_count": 380
+    },
+    {
+      "id": "journey_376",
+      "signature": "english_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 25,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_469",
+      "signature": "tension_data_information",
+      "birth_tau": 22,
+      "lifespan": 25,
+      "has_reentry": true,
+      "glued_with_count": 319
+    },
+    {
+      "id": "journey_257",
+      "signature": "analysis_data_management",
+      "birth_tau": 14,
+      "lifespan": 24,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_278",
+      "signature": "services_data_management",
+      "birth_tau": 14,
+      "lifespan": 24,
+      "has_reentry": true,
+      "glued_with_count": 372
+    },
+    {
+      "id": "journey_314",
+      "signature": "modern_data_management",
+      "birth_tau": 14,
+      "lifespan": 24,
+      "has_reentry": true,
+      "glued_with_count": 380
+    },
+    {
+      "id": "journey_400",
+      "signature": "science_data_books",
+      "birth_tau": 16,
+      "lifespan": 24,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_477",
+      "signature": "engineering_data_architecture",
+      "birth_tau": 25,
+      "lifespan": 24,
+      "has_reentry": true,
+      "glued_with_count": 300
+    },
+    {
+      "id": "journey_478",
+      "signature": "cost_data_business",
+      "birth_tau": 25,
+      "lifespan": 24,
+      "has_reentry": true,
+      "glued_with_count": 297
+    },
+    {
+      "id": "journey_479",
+      "signature": "legal_data_analytics",
+      "birth_tau": 25,
+      "lifespan": 24,
+      "has_reentry": true,
+      "glued_with_count": 300
+    },
+    {
+      "id": "journey_480",
+      "signature": "aligns_data_analytics",
+      "birth_tau": 25,
+      "lifespan": 24,
+      "has_reentry": true,
+      "glued_with_count": 296
+    },
+    {
+      "id": "journey_481",
+      "signature": "ontology_data_analytics",
+      "birth_tau": 25,
+      "lifespan": 24,
+      "has_reentry": true,
+      "glued_with_count": 298
+    },
+    {
+      "id": "journey_482",
+      "signature": "transformation_data_analytics",
+      "birth_tau": 25,
+      "lifespan": 24,
+      "has_reentry": true,
+      "glued_with_count": 298
+    },
+    {
+      "id": "journey_484",
+      "signature": "intelligence_data_analytics",
+      "birth_tau": 25,
+      "lifespan": 24,
+      "has_reentry": true,
+      "glued_with_count": 298
+    },
+    {
+      "id": "journey_486",
+      "signature": "term_data_analytics",
+      "birth_tau": 25,
+      "lifespan": 24,
+      "has_reentry": true,
+      "glued_with_count": 301
+    },
+    {
+      "id": "journey_488",
+      "signature": "models_data_analytics",
+      "birth_tau": 25,
+      "lifespan": 24,
+      "has_reentry": true,
+      "glued_with_count": 293
+    },
+    {
+      "id": "journey_490",
+      "signature": "direct_data_analytics",
+      "birth_tau": 25,
+      "lifespan": 24,
+      "has_reentry": true,
+      "glued_with_count": 297
+    },
+    {
+      "id": "journey_495",
+      "signature": "operational_data_analytics",
+      "birth_tau": 25,
+      "lifespan": 24,
+      "has_reentry": true,
+      "glued_with_count": 296
+    },
+    {
+      "id": "journey_497",
+      "signature": "wrote_data_analytics",
+      "birth_tau": 25,
+      "lifespan": 24,
+      "has_reentry": true,
+      "glued_with_count": 299
+    },
+    {
+      "id": "journey_240",
+      "signature": "create_data_management",
+      "birth_tau": 14,
+      "lifespan": 23,
+      "has_reentry": true,
+      "glued_with_count": 380
+    },
+    {
+      "id": "journey_248",
+      "signature": "culture_data_management",
+      "birth_tau": 14,
+      "lifespan": 23,
+      "has_reentry": true,
+      "glued_with_count": 380
+    },
+    {
+      "id": "journey_301",
+      "signature": "result_data_management",
+      "birth_tau": 14,
+      "lifespan": 23,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_311",
+      "signature": "contributions_data_management",
+      "birth_tau": 14,
+      "lifespan": 23,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_330",
+      "signature": "triangle_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 23,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_332",
+      "signature": "equal_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 23,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_336",
+      "signature": "rewrite_data_analytics",
+      "birth_tau": 16,
+      "lifespan": 23,
+      "has_reentry": true,
+      "glued_with_count": 377
+    },
+    {
+      "id": "journey_354",
+      "signature": "following_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 23,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_367",
+      "signature": "feedback_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 23,
+      "has_reentry": true,
+      "glued_with_count": 375
+    },
+    {
+      "id": "journey_391",
+      "signature": "science_data_books",
+      "birth_tau": 16,
+      "lifespan": 23,
+      "has_reentry": true,
+      "glued_with_count": 376
+    },
+    {
+      "id": "journey_394",
+      "signature": "focus_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 23,
+      "has_reentry": true,
+      "glued_with_count": 375
+    },
+    {
+      "id": "journey_401",
+      "signature": "science_data_books",
+      "birth_tau": 16,
+      "lifespan": 23,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_485",
+      "signature": "professional_data_management",
+      "birth_tau": 25,
+      "lifespan": 23,
+      "has_reentry": true,
+      "glued_with_count": 299
+    },
+    {
+      "id": "journey_199",
+      "signature": "ontology_data_management",
+      "birth_tau": 14,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_213",
+      "signature": "model_data_management",
+      "birth_tau": 14,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_234",
+      "signature": "completely_data_management",
+      "birth_tau": 14,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_236",
+      "signature": "critical_data_management",
+      "birth_tau": 14,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_246",
+      "signature": "used_data_management",
+      "birth_tau": 14,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_260",
+      "signature": "terms_data_management",
+      "birth_tau": 14,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_271",
+      "signature": "significant_data_management",
+      "birth_tau": 14,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_272",
+      "signature": "existing_data_management",
+      "birth_tau": 14,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_273",
+      "signature": "developed_data_management",
+      "birth_tau": 14,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_276",
+      "signature": "become_data_management",
+      "birth_tau": 14,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_285",
+      "signature": "including_data_management",
+      "birth_tau": 14,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_290",
+      "signature": "internal_data_management",
+      "birth_tau": 14,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 373
+    },
+    {
+      "id": "journey_291",
+      "signature": "deal_data_management",
+      "birth_tau": 14,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_297",
+      "signature": "information_data_management",
+      "birth_tau": 14,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 377
+    },
+    {
+      "id": "journey_307",
+      "signature": "financial_data_management",
+      "birth_tau": 14,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 380
+    },
+    {
+      "id": "journey_310",
+      "signature": "step_data_management",
+      "birth_tau": 14,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 362
+    },
+    {
+      "id": "journey_317",
+      "signature": "related_data_management",
+      "birth_tau": 14,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_319",
+      "signature": "likely_data_management",
+      "birth_tau": 14,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_320",
+      "signature": "control_data_management",
+      "birth_tau": 14,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_343",
+      "signature": "realisation_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_351",
+      "signature": "days_data_books",
+      "birth_tau": 16,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 375
+    },
+    {
+      "id": "journey_360",
+      "signature": "both_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_379",
+      "signature": "real_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_398",
+      "signature": "citations_data_references",
+      "birth_tau": 16,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_453",
+      "signature": "point_data_work",
+      "birth_tau": 22,
+      "lifespan": 22,
+      "has_reentry": true,
+      "glued_with_count": 320
+    },
+    {
+      "id": "journey_198",
+      "signature": "name_data_management",
+      "birth_tau": 14,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 373
+    },
+    {
+      "id": "journey_200",
+      "signature": "relationship_data_management",
+      "birth_tau": 14,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_201",
+      "signature": "technical_data_management",
+      "birth_tau": 14,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_210",
+      "signature": "effective_data_management",
+      "birth_tau": 14,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_215",
+      "signature": "provided_data_management",
+      "birth_tau": 14,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_219",
+      "signature": "level_data_management",
+      "birth_tau": 14,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_221",
+      "signature": "understand_data_management",
+      "birth_tau": 14,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_222",
+      "signature": "bold_data_management",
+      "birth_tau": 14,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_224",
+      "signature": "however_data_management",
+      "birth_tau": 14,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 380
+    },
+    {
+      "id": "journey_231",
+      "signature": "white_data_management",
+      "birth_tau": 14,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_233",
+      "signature": "professional_data_management",
+      "birth_tau": 14,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_249",
+      "signature": "require_data_management",
+      "birth_tau": 14,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_254",
+      "signature": "supplies_data_management",
+      "birth_tau": 14,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_261",
+      "signature": "purely_data_management",
+      "birth_tau": 14,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_265",
+      "signature": "based_data_management",
+      "birth_tau": 14,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 372
+    },
+    {
+      "id": "journey_268",
+      "signature": "chosen_data_management",
+      "birth_tau": 14,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_283",
+      "signature": "stored_data_management",
+      "birth_tau": 14,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 360
+    },
+    {
+      "id": "journey_284",
+      "signature": "crucial_data_management",
+      "birth_tau": 14,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_289",
+      "signature": "success_data_management",
+      "birth_tau": 14,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 372
+    },
+    {
+      "id": "journey_300",
+      "signature": "many_data_management",
+      "birth_tau": 14,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_331",
+      "signature": "equal_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 377
+    },
+    {
+      "id": "journey_334",
+      "signature": "century_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 371
+    },
+    {
+      "id": "journey_356",
+      "signature": "despite_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 377
+    },
+    {
+      "id": "journey_368",
+      "signature": "trained_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 376
+    },
+    {
+      "id": "journey_373",
+      "signature": "becoming_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_378",
+      "signature": "today_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 377
+    },
+    {
+      "id": "journey_387",
+      "signature": "trying_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_393",
+      "signature": "references_data_citations",
+      "birth_tau": 16,
+      "lifespan": 21,
+      "has_reentry": true,
+      "glued_with_count": 377
+    },
+    {
+      "id": "journey_197",
+      "signature": "essential_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 372
+    },
+    {
+      "id": "journey_203",
+      "signature": "means_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 373
+    },
+    {
+      "id": "journey_205",
+      "signature": "relationships_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_209",
+      "signature": "library_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_216",
+      "signature": "drawn_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 376
+    },
+    {
+      "id": "journey_217",
+      "signature": "resulting_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_220",
+      "signature": "creates_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_223",
+      "signature": "development_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_229",
+      "signature": "field_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 376
+    },
+    {
+      "id": "journey_230",
+      "signature": "ideas_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_232",
+      "signature": "different_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_237",
+      "signature": "draw_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_241",
+      "signature": "address_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_243",
+      "signature": "transformation_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_244",
+      "signature": "lower_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_255",
+      "signature": "among_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 361
+    },
+    {
+      "id": "journey_259",
+      "signature": "diagram_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_262",
+      "signature": "need_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_266",
+      "signature": "quality_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_267",
+      "signature": "help_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 366
+    },
+    {
+      "id": "journey_277",
+      "signature": "equipped_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_282",
+      "signature": "explain_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_309",
+      "signature": "across_data_management",
+      "birth_tau": 14,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_338",
+      "signature": "isaac_data_poernomo",
+      "birth_tau": 16,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 343
+    },
+    {
+      "id": "journey_374",
+      "signature": "becoming_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_395",
+      "signature": "books_data_song",
+      "birth_tau": 16,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 379
+    },
+    {
+      "id": "journey_508",
+      "signature": "judgements_house_data",
+      "birth_tau": 27,
+      "lifespan": 20,
+      "has_reentry": true,
+      "glued_with_count": 291
+    },
+    {
+      "id": "journey_226",
+      "signature": "concept_data_management",
+      "birth_tau": 14,
+      "lifespan": 19,
+      "has_reentry": true,
+      "glued_with_count": 373
+    },
+    {
+      "id": "journey_228",
+      "signature": "reality_data_management",
+      "birth_tau": 14,
+      "lifespan": 19,
+      "has_reentry": true,
+      "glued_with_count": 372
+    },
+    {
+      "id": "journey_303",
+      "signature": "tools_data_management",
+      "birth_tau": 14,
+      "lifespan": 19,
+      "has_reentry": true,
+      "glued_with_count": 340
+    },
+    {
+      "id": "journey_312",
+      "signature": "further_data_management",
+      "birth_tau": 14,
+      "lifespan": 19,
+      "has_reentry": true,
+      "glued_with_count": 375
+    },
+    {
+      "id": "journey_315",
+      "signature": "established_data_management",
+      "birth_tau": 14,
+      "lifespan": 19,
+      "has_reentry": true,
+      "glued_with_count": 343
+    },
+    {
+      "id": "journey_353",
+      "signature": "ensures_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 19,
+      "has_reentry": true,
+      "glued_with_count": 378
+    },
+    {
+      "id": "journey_364",
+      "signature": "white_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 19,
+      "has_reentry": true,
+      "glued_with_count": 337
+    },
+    {
+      "id": "journey_380",
+      "signature": "real_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 19,
+      "has_reentry": true,
+      "glued_with_count": 377
+    },
+    {
+      "id": "journey_492",
+      "signature": "applying_data_analytics",
+      "birth_tau": 25,
+      "lifespan": 19,
+      "has_reentry": true,
+      "glued_with_count": 298
+    },
+    {
+      "id": "journey_308",
+      "signature": "collection_data_management",
+      "birth_tau": 14,
+      "lifespan": 18,
+      "has_reentry": true,
+      "glued_with_count": 316
+    },
+    {
+      "id": "journey_382",
+      "signature": "used_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 18,
+      "has_reentry": true,
+      "glued_with_count": 343
+    },
+    {
+      "id": "journey_429",
+      "signature": "turn_cover_name",
+      "birth_tau": 20,
+      "lifespan": 18,
+      "has_reentry": true,
+      "glued_with_count": 342
+    },
+    {
+      "id": "journey_431",
+      "signature": "around_cover_name",
+      "birth_tau": 20,
+      "lifespan": 18,
+      "has_reentry": true,
+      "glued_with_count": 342
+    },
+    {
+      "id": "journey_489",
+      "signature": "both_data_management",
+      "birth_tau": 25,
+      "lifespan": 18,
+      "has_reentry": true,
+      "glued_with_count": 300
+    },
+    {
+      "id": "journey_238",
+      "signature": "making_data_management",
+      "birth_tau": 14,
+      "lifespan": 17,
+      "has_reentry": true,
+      "glued_with_count": 340
+    },
+    {
+      "id": "journey_250",
+      "signature": "often_data_management",
+      "birth_tau": 14,
+      "lifespan": 17,
+      "has_reentry": true,
+      "glued_with_count": 341
+    },
+    {
+      "id": "journey_299",
+      "signature": "sure_data_management",
+      "birth_tau": 14,
+      "lifespan": 17,
+      "has_reentry": true,
+      "glued_with_count": 326
+    },
+    {
+      "id": "journey_386",
+      "signature": "poernomo_data_iman",
+      "birth_tau": 16,
+      "lifespan": 17,
+      "has_reentry": true,
+      "glued_with_count": 377
+    },
+    {
+      "id": "journey_404",
+      "signature": "together_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 17,
+      "has_reentry": true,
+      "glued_with_count": 295
+    },
+    {
+      "id": "journey_418",
+      "signature": "mind_cover_name",
+      "birth_tau": 20,
+      "lifespan": 17,
+      "has_reentry": true,
+      "glued_with_count": 342
+    },
+    {
+      "id": "journey_440",
+      "signature": "width_data_information",
+      "birth_tau": 22,
+      "lifespan": 17,
+      "has_reentry": true,
+      "glued_with_count": 319
+    },
+    {
+      "id": "journey_445",
+      "signature": "cases_data_information",
+      "birth_tau": 22,
+      "lifespan": 17,
+      "has_reentry": true,
+      "glued_with_count": 319
+    },
+    {
+      "id": "journey_448",
+      "signature": "talking_data_work",
+      "birth_tau": 22,
+      "lifespan": 17,
+      "has_reentry": true,
+      "glued_with_count": 319
+    },
+    {
+      "id": "journey_450",
+      "signature": "today_data_information",
+      "birth_tau": 22,
+      "lifespan": 17,
+      "has_reentry": true,
+      "glued_with_count": 320
+    },
+    {
+      "id": "journey_451",
+      "signature": "second_data_work",
+      "birth_tau": 22,
+      "lifespan": 17,
+      "has_reentry": true,
+      "glued_with_count": 320
+    },
+    {
+      "id": "journey_457",
+      "signature": "smoothly_data_information",
+      "birth_tau": 22,
+      "lifespan": 17,
+      "has_reentry": true,
+      "glued_with_count": 319
+    },
+    {
+      "id": "journey_460",
+      "signature": "possible_data_information",
+      "birth_tau": 22,
+      "lifespan": 17,
+      "has_reentry": true,
+      "glued_with_count": 320
+    },
+    {
+      "id": "journey_464",
+      "signature": "broader_data_information",
+      "birth_tau": 22,
+      "lifespan": 17,
+      "has_reentry": true,
+      "glued_with_count": 320
+    },
+    {
+      "id": "journey_465",
+      "signature": "provided_data_information",
+      "birth_tau": 22,
+      "lifespan": 17,
+      "has_reentry": true,
+      "glued_with_count": 319
+    },
+    {
+      "id": "journey_468",
+      "signature": "sense_data_work",
+      "birth_tau": 22,
+      "lifespan": 17,
+      "has_reentry": true,
+      "glued_with_count": 320
+    },
+    {
+      "id": "journey_507",
+      "signature": "agent_house_data",
+      "birth_tau": 27,
+      "lifespan": 17,
+      "has_reentry": true,
+      "glued_with_count": 289
+    },
+    {
+      "id": "journey_18",
+      "signature": "describe_data_quality",
+      "birth_tau": 2,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_22",
+      "signature": "name_data_quality",
+      "birth_tau": 2,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_26",
+      "signature": "history_data_quality",
+      "birth_tau": 2,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_29",
+      "signature": "consistent_data_quality",
+      "birth_tau": 2,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_30",
+      "signature": "action_data_quality",
+      "birth_tau": 2,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_38",
+      "signature": "whole_data_quality",
+      "birth_tau": 2,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_39",
+      "signature": "work_data_quality",
+      "birth_tau": 2,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_44",
+      "signature": "connection_data_quality",
+      "birth_tau": 2,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_45",
+      "signature": "judgement_data_quality",
+      "birth_tau": 2,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_62",
+      "signature": "models_data_quality",
+      "birth_tau": 2,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_65",
+      "signature": "during_data_quality",
+      "birth_tau": 2,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_71",
+      "signature": "information_data_quality",
+      "birth_tau": 2,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_79",
+      "signature": "safety_data_quality",
+      "birth_tau": 2,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_82",
+      "signature": "focus_data_quality",
+      "birth_tau": 2,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_86",
+      "signature": "word_data_quality",
+      "birth_tau": 2,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_89",
+      "signature": "going_data_quality",
+      "birth_tau": 2,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_93",
+      "signature": "quality_data_information",
+      "birth_tau": 2,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_94",
+      "signature": "project_data_quality",
+      "birth_tau": 2,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_102",
+      "signature": "property_data_quality",
+      "birth_tau": 2,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_118",
+      "signature": "training_data_quality",
+      "birth_tau": 2,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 194
+    },
+    {
+      "id": "journey_256",
+      "signature": "include_data_management",
+      "birth_tau": 14,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 343
+    },
+    {
+      "id": "journey_279",
+      "signature": "cover_data_management",
+      "birth_tau": 14,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 315
+    },
+    {
+      "id": "journey_348",
+      "signature": "usually_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 337
+    },
+    {
+      "id": "journey_370",
+      "signature": "asks_data_rewrite",
+      "birth_tau": 16,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 341
+    },
+    {
+      "id": "journey_372",
+      "signature": "rewrite_data_analytics",
+      "birth_tau": 16,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 338
+    },
+    {
+      "id": "journey_443",
+      "signature": "driven_data_work",
+      "birth_tau": 22,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 319
+    },
+    {
+      "id": "journey_471",
+      "signature": "done_data_work",
+      "birth_tau": 22,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 319
+    },
+    {
+      "id": "journey_491",
+      "signature": "processing_data_analytics",
+      "birth_tau": 25,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 298
+    },
+    {
+      "id": "journey_493",
+      "signature": "same_data_business",
+      "birth_tau": 25,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 299
+    },
+    {
+      "id": "journey_494",
+      "signature": "shared_data_analytics",
+      "birth_tau": 25,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 295
+    },
+    {
+      "id": "journey_496",
+      "signature": "financial_data_analytics",
+      "birth_tau": 25,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 301
+    },
+    {
+      "id": "journey_530",
+      "signature": "doesn_semantic_type",
+      "birth_tau": 29,
+      "lifespan": 16,
+      "has_reentry": true,
+      "glued_with_count": 257
+    },
+    {
+      "id": "journey_25",
+      "signature": "following_data_quality",
+      "birth_tau": 2,
+      "lifespan": 15,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_63",
+      "signature": "building_data_quality",
+      "birth_tau": 2,
+      "lifespan": 15,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_66",
+      "signature": "experience_data_quality",
+      "birth_tau": 2,
+      "lifespan": 15,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_70",
+      "signature": "entire_data_quality",
+      "birth_tau": 2,
+      "lifespan": 15,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_78",
+      "signature": "journeys_data_quality",
+      "birth_tau": 2,
+      "lifespan": 15,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_84",
+      "signature": "living_data_quality",
+      "birth_tau": 2,
+      "lifespan": 15,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_95",
+      "signature": "services_data_quality",
+      "birth_tau": 2,
+      "lifespan": 15,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_112",
+      "signature": "value_data_quality",
+      "birth_tau": 2,
+      "lifespan": 15,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_117",
+      "signature": "critical_data_quality",
+      "birth_tau": 2,
+      "lifespan": 15,
+      "has_reentry": true,
+      "glued_with_count": 193
+    },
+    {
+      "id": "journey_251",
+      "signature": "people_data_management",
+      "birth_tau": 14,
+      "lifespan": 15,
+      "has_reentry": true,
+      "glued_with_count": 340
+    },
+    {
+      "id": "journey_258",
+      "signature": "best_data_management",
+      "birth_tau": 14,
+      "lifespan": 15,
+      "has_reentry": true,
+      "glued_with_count": 343
+    },
+    {
+      "id": "journey_294",
+      "signature": "showing_data_management",
+      "birth_tau": 14,
+      "lifespan": 15,
+      "has_reentry": true,
+      "glued_with_count": 340
+    },
+    {
+      "id": "journey_306",
+      "signature": "theory_data_management",
+      "birth_tau": 14,
+      "lifespan": 15,
+      "has_reentry": true,
+      "glued_with_count": 296
+    }
+  ]
+}
